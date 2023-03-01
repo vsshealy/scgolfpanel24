@@ -1,0 +1,3475 @@
+/**
+ * sass/external/elementor.scss
+ * @package scgolfpanel
+ * @author Scott Shealy
+ * @version 1.0.0 (2023-02-28)
+ * @copyright 2023
+**/
+
+// VARIABLES
+// STYLES
+    .elementor {
+        // GLOBAL
+        // MOBILE
+            @media #{$media-xs} {} //.COL-XS
+            @media #{$media-sm} {} //.COL-SM
+            @media #{$media-md} {} //.COL-MD
+            @media #{$device-mobile} {} //.MOBILE
+
+        // DESKTOP
+            @media #{$device-desktop} {} //.DESKTOP
+            @media #{$media-lg} {} //.COL-LG
+            @media #{$media-xl} {} //.COL-XL
+            @media #{$media-xxl} {} //.COL-XXL
+
+        &-element {
+            // GLOBAL
+            // MOBILE
+                @media #{$media-xs} {} //.COL-XS
+                @media #{$media-sm} {} //.COL-SM
+                @media #{$media-md} {} //.COL-MD
+                @media #{$device-mobile} {} //.MOBILE
+
+            // DESKTOP
+                @media #{$device-desktop} {} //.DESKTOP
+                @media #{$media-lg} {} //.COL-LG
+                @media #{$media-xl} {} //.COL-XL
+                @media #{$media-xxl} {} //.COL-XXL
+
+            &.columns {
+                // GLOBAL
+                // MOBILE
+                    @media #{$media-xs} {} //.COL-XS
+                    @media #{$media-sm} {} //.COL-SM
+                    @media #{$media-md} {} //.COL-MD
+                    @media #{$device-mobile} {} //.MOBILE
+        
+                // DESKTOP
+                    @media #{$device-desktop} {} //.DESKTOP
+                    @media #{$media-lg} {} //.COL-LG
+                    @media #{$media-xl} {} //.COL-XL
+                    @media #{$media-xxl} {} //.COL-XXL
+        
+                &.col-xs {
+                    &-0 {
+                        // GLOBAL                    
+                        // MOBILE
+                            @media #{$media-xs} {} //.COL-XS
+                            @media #{$media-sm} {} //.COL-SM
+                            @media #{$media-md} {} //.COL-MD
+                            @media #{$device-mobile} {} //.MOBILE
+        
+                        // DESKTOP
+                            @media #{$device-desktop} {} //.DESKTOP
+                            @media #{$media-lg} {} //.COL-LG
+                            @media #{$media-xl} {} //.COL-XL
+                            @media #{$media-xxl} {} //.COL-XXL
+                    } //.COL-XS-0
+        
+                    &-1 {
+                        // GLOBAL
+                        // MOBILE
+                            @media #{$media-xs} {
+                                width: $grid-1;
+                            } //.COL-XS
+                            @media #{$media-sm} {} //.COL-SM
+                            @media #{$media-md} {} //.COL-MD
+                            @media #{$device-mobile} {} //.MOBILE
+        
+                        // DESKTOP
+                            @media #{$device-desktop} {} //.DESKTOP
+                            @media #{$media-lg} {} //.COL-LG
+                            @media #{$media-xl} {} //.COL-XL
+                            @media #{$media-xxl} {} //.COL-XXL
+                    } //.COL-XS-1
+        
+                    &-2 {
+                        // GLOBAL
+                        // MOBILE
+                            @media #{$media-xs} {
+                                width: $grid-2;
+                            } //.COL-XS
+                            @media #{$media-sm} {} //.COL-SM
+                            @media #{$media-md} {} //.COL-MD
+                            @media #{$device-mobile} {} //.MOBILE
+        
+                        // DESKTOP
+                            @media #{$device-desktop} {} //.DESKTOP
+                            @media #{$media-lg} {} //.COL-LG
+                            @media #{$media-xl} {} //.COL-XL
+                            @media #{$media-xxl} {} //.COL-XXL
+                    } //.COL-XS-2
+        
+                    &-3 {
+                        // GLOBAL
+                        // MOBILE
+                            @media #{$media-xs} {
+                                width: $grid-3;
+                            } //.COL-XS
+                            @media #{$media-sm} {} //.COL-SM
+                            @media #{$media-md} {} //.COL-MD
+                            @media #{$device-mobile} {} //.MOBILE
+        
+                        // DESKTOP
+                            @media #{$device-desktop} {} //.DESKTOP
+                            @media #{$media-lg} {} //.COL-LG
+                            @media #{$media-xl} {} //.COL-XL
+                            @media #{$media-xxl} {} //.COL-XXL
+                    } //.COL-XS-3
+        
+                    &-4 {
+                        // GLOBAL
+                        // MOBILE
+                            @media #{$media-xs} {
+                                width: $grid-4;
+                            } //.COL-XS
+                            @media #{$media-sm} {} //.COL-SM
+                            @media #{$media-md} {} //.COL-MD
+                            @media #{$device-mobile} {} //.MOBILE
+        
+                        // DESKTOP
+                            @media #{$device-desktop} {} //.DESKTOP
+                            @media #{$media-lg} {} //.COL-LG
+                            @media #{$media-xl} {} //.COL-XL
+                            @media #{$media-xxl} {} //.COL-XXL
+                    } //.COL-XS-4
+        
+                    &-5 {
+                        // GLOBAL
+                        // MOBILE
+                            @media #{$media-xs} {
+                                width: $grid-5;
+                            } //.COL-XS
+                            @media #{$media-sm} {} //.COL-SM
+                            @media #{$media-md} {} //.COL-MD
+                            @media #{$device-mobile} {} //.MOBILE
+        
+                        // DESKTOP
+                            @media #{$device-desktop} {} //.DESKTOP
+                            @media #{$media-lg} {} //.COL-LG
+                            @media #{$media-xl} {} //.COL-XL
+                            @media #{$media-xxl} {} //.COL-XXL
+                    } //.COL-XS-5
+        
+                    &-6 {
+                        // GLOBAL
+                        // MOBILE
+                            @media #{$media-xs} {
+                                width: $grid-6;
+                            } //.COL-XS
+                            @media #{$media-sm} {} //.COL-SM
+                            @media #{$media-md} {} //.COL-MD
+                            @media #{$device-mobile} {} //.MOBILE
+        
+                        // DESKTOP
+                            @media #{$device-desktop} {} //.DESKTOP
+                            @media #{$media-lg} {} //.COL-LG
+                            @media #{$media-xl} {} //.COL-XL
+                            @media #{$media-xxl} {} //.COL-XXL
+                    } //.COL-XS-6
+        
+                    &-7 {
+                        // GLOBAL
+                        // MOBILE
+                            @media #{$media-xs} {
+                                width: $grid-7;
+                            } //.COL-XS
+                            @media #{$media-sm} {} //.COL-SM
+                            @media #{$media-md} {} //.COL-MD
+                            @media #{$device-mobile} {} //.MOBILE
+        
+                        // DESKTOP
+                            @media #{$device-desktop} {} //.DESKTOP
+                            @media #{$media-lg} {} //.COL-LG
+                            @media #{$media-xl} {} //.COL-XL
+                            @media #{$media-xxl} {} //.COL-XXL
+                    } //.COL-XS-7
+        
+                    &-8 {
+                        // GLOBAL
+                        // MOBILE
+                            @media #{$media-xs} {
+                                width: $grid-8;
+                            } //.COL-XS
+                            @media #{$media-sm} {} //.COL-SM
+                            @media #{$media-md} {} //.COL-MD
+                            @media #{$device-mobile} {} //.MOBILE
+        
+                        // DESKTOP
+                            @media #{$device-desktop} {} //.DESKTOP
+                            @media #{$media-lg} {} //.COL-LG
+                            @media #{$media-xl} {} //.COL-XL
+                            @media #{$media-xxl} {} //.COL-XXL
+                    } //.COL-XS-8
+        
+                    &-9 {
+                        // GLOBAL
+                        // MOBILE
+                            @media #{$media-xs} {
+                                width: $grid-9
+                            } //.COL-XS
+                            @media #{$media-sm} {} //.COL-SM
+                            @media #{$media-md} {} //.COL-MD
+                            @media #{$device-mobile} {} //.MOBILE
+        
+                        // DESKTOP
+                            @media #{$device-desktop} {} //.DESKTOP
+                            @media #{$media-lg} {} //.COL-LG
+                            @media #{$media-xl} {} //.COL-XL
+                            @media #{$media-xxl} {} //.COL-XXL
+                    } //.COL-XS-9
+        
+                    &-10 {
+                        // GLOBAL
+                        // MOBILE
+                            @media #{$media-xs} {
+                                width: $grid-10;
+                            } //.COL-XS
+                            @media #{$media-sm} {} //.COL-SM
+                            @media #{$media-md} {} //.COL-MD
+                            @media #{$device-mobile} {} //.MOBILE
+        
+                        // DESKTOP
+                            @media #{$device-desktop} {} //.DESKTOP
+                            @media #{$media-lg} {} //.COL-LG
+                            @media #{$media-xl} {} //.COL-XL
+                            @media #{$media-xxl} {} //.COL-XXL
+                    } //.COL-XS-10
+        
+                    &-11 {
+                        // GLOBAL
+                        // MOBILE
+                            @media #{$media-xs} {
+                                width: $grid-11;
+                            } //.COL-XS
+                            @media #{$media-sm} {} //.COL-SM
+                            @media #{$media-md} {} //.COL-MD
+                            @media #{$device-mobile} {} //.MOBILE
+        
+                        // DESKTOP
+                            @media #{$device-desktop} {} //.DESKTOP
+                            @media #{$media-lg} {} //.COL-LG
+                            @media #{$media-xl} {} //.COL-XL
+                            @media #{$media-xxl} {} //.COL-XXL
+                    } //.COL-XS-11
+        
+                    &-12 {
+                        // GLOBAL
+                        // MOBILE
+                            @media #{$media-xs} {
+                                width: $grid-12;
+                            } //.COL-XS
+                            @media #{$media-sm} {} //.COL-SM
+                            @media #{$media-md} {} //.COL-MD
+                            @media #{$device-mobile} {} //.MOBILE
+        
+                        // DESKTOP
+                            @media #{$device-desktop} {} //.DESKTOP
+                            @media #{$media-lg} {} //.COL-LG
+                            @media #{$media-xl} {} //.COL-XL
+                            @media #{$media-xxl} {} //.COL-XXL
+                    } //.COL-XS-12
+                } //.COL-XS
+            
+                &.col-sm {
+                    &-0 {
+                        // GLOBAL
+                        // MOBILE
+                            @media #{$media-xs} {} //.COL-XS
+                            @media #{$media-sm} {} //.COL-SM
+                            @media #{$media-md} {} //.COL-MD
+                            @media #{$device-mobile} {} //.MOBILE
+        
+                        // DESKTOP
+                            @media #{$device-desktop} {} //.DESKTOP
+                            @media #{$media-lg} {} //.COL-LG
+                            @media #{$media-xl} {} //.COL-XL
+                            @media #{$media-xxl} {} //.COL-XXL
+                    } //.COL-SM-0
+        
+                    &-1 {
+                        // GLOBAL
+                        // MOBILE
+                            @media #{$media-xs} {} //.COL-XS
+                            @media #{$media-sm} {
+                                width: $grid-1;
+                            } //.COL-SM
+                            @media #{$media-md} {} //.COL-MD
+                            @media #{$device-mobile} {} //.MOBILE
+        
+                        // DESKTOP
+                            @media #{$device-desktop} {} //.DESKTOP
+                            @media #{$media-lg} {} //.COL-LG
+                            @media #{$media-xl} {} //.COL-XL
+                            @media #{$media-xxl} {} //.COL-XXL
+                    } //.COL-SM-1
+        
+                    &-2 {
+                        // GLOBAL
+                        // MOBILE
+                            @media #{$media-xs} {} //.COL-XS
+                            @media #{$media-sm} {
+                                width: $grid-2;
+                            } //.COL-SM
+                            @media #{$media-md} {} //.COL-MD
+                            @media #{$device-mobile} {} //.MOBILE
+        
+                        // DESKTOP
+                            @media #{$device-desktop} {} //.DESKTOP
+                            @media #{$media-lg} {} //.COL-LG
+                            @media #{$media-xl} {} //.COL-XL
+                            @media #{$media-xxl} {} //.COL-XXL
+                    } //.COL-XS-2
+        
+                    &-3 {
+                        // GLOBAL
+                        // MOBILE
+                            @media #{$media-xs} {} //.COL-XS
+                            @media #{$media-sm} {
+                                width: $grid-3;
+                            } //.COL-SM
+                            @media #{$media-md} {} //.COL-MD
+                            @media #{$device-mobile} {} //.MOBILE
+        
+                        // DESKTOP
+                            @media #{$device-desktop} {} //.DESKTOP
+                            @media #{$media-lg} {} //.COL-LG
+                            @media #{$media-xl} {} //.COL-XL
+                            @media #{$media-xxl} {} //.COL-XXL
+                    } //.COL-SM-3
+        
+                    &-4 {
+                        // GLOBAL
+                        // MOBILE
+                            @media #{$media-xs} {} //.COL-XS
+                            @media #{$media-sm} {
+                                width: $grid-4;
+                            } //.COL-SM
+                            @media #{$media-md} {} //.COL-MD
+                            @media #{$device-mobile} {} //.MOBILE
+        
+                        // DESKTOP
+                            @media #{$device-desktop} {} //.DESKTOP
+                            @media #{$media-lg} {} //.COL-LG
+                            @media #{$media-xl} {} //.COL-XL
+                            @media #{$media-xxl} {} //.COL-XXL
+                    } //.COL-SM-4
+        
+                    &-5 {
+                        // GLOBAL
+                        // MOBILE
+                            @media #{$media-xs} {} //.COL-XS
+                            @media #{$media-sm} {
+                                width: $grid-5;
+                            } //.COL-SM
+                            @media #{$media-md} {} //.COL-MD
+                            @media #{$device-mobile} {} //.MOBILE
+        
+                        // DESKTOP
+                            @media #{$device-desktop} {} //.DESKTOP
+                            @media #{$media-lg} {} //.COL-LG
+                            @media #{$media-xl} {} //.COL-XL
+                            @media #{$media-xxl} {} //.COL-XXL
+                    } //.COL-SM-5
+        
+                    &-6 {
+                        // GLOBAL
+                        // MOBILE
+                            @media #{$media-xs} {} //.COL-XS
+                            @media #{$media-sm} {
+                                width: $grid-6;
+                            } //.COL-SM
+                            @media #{$media-md} {} //.COL-MD
+                            @media #{$device-mobile} {} //.MOBILE
+        
+                        // DESKTOP
+                            @media #{$device-desktop} {} //.DESKTOP
+                            @media #{$media-lg} {} //.COL-LG
+                            @media #{$media-xl} {} //.COL-XL
+                            @media #{$media-xxl} {} //.COL-XXL
+                    } //.COL-SM-6
+        
+                    &-7 {
+                        // GLOBAL
+                        // MOBILE
+                            @media #{$media-xs} {} //.COL-XS
+                            @media #{$media-sm} {
+                                width: $grid-7;
+                            } //.COL-SM
+                            @media #{$media-md} {} //.COL-MD
+                            @media #{$device-mobile} {} //.MOBILE
+        
+                        // DESKTOP
+                            @media #{$device-desktop} {} //.DESKTOP
+                            @media #{$media-lg} {} //.COL-LG
+                            @media #{$media-xl} {} //.COL-XL
+                            @media #{$media-xxl} {} //.COL-XXL
+                    } //.COL-SM-7
+        
+                    &-8 {
+                        // GLOBAL
+                        // MOBILE
+                            @media #{$media-xs} {} //.COL-XS
+                            @media #{$media-sm} {
+                                width: $grid-8;
+                            } //.COL-SM
+                            @media #{$media-md} {} //.COL-MD
+                            @media #{$device-mobile} {} //.MOBILE
+        
+                        // DESKTOP
+                            @media #{$device-desktop} {} //.DESKTOP
+                            @media #{$media-lg} {} //.COL-LG
+                            @media #{$media-xl} {} //.COL-XL
+                            @media #{$media-xxl} {} //.COL-XXL
+                    } //.COL-SM-8
+        
+                    &-9 {
+                        // GLOBAL
+                        // MOBILE
+                            @media #{$media-xs} {} //.COL-XS
+                            @media #{$media-sm} {
+                                width: $grid-9;
+                            } //.COL-SM
+                            @media #{$media-md} {} //.COL-MD
+                            @media #{$device-mobile} {} //.MOBILE
+        
+                        // DESKTOP
+                            @media #{$device-desktop} {} //.DESKTOP
+                            @media #{$media-lg} {} //.COL-LG
+                            @media #{$media-xl} {} //.COL-XL
+                            @media #{$media-xxl} {} //.COL-XXL
+                    } //.COL-SM-9
+        
+                    &-10 {
+                        // GLOBAL
+                        // MOBILE
+                            @media #{$media-xs} {} //.COL-XS
+                            @media #{$media-sm} {
+                                width: $grid-10;
+                            } //.COL-SM
+                            @media #{$media-md} {} //.COL-MD
+                            @media #{$device-mobile} {} //.MOBILE
+        
+                        // DESKTOP
+                            @media #{$device-desktop} {} //.DESKTOP
+                            @media #{$media-lg} {} //.COL-LG
+                            @media #{$media-xl} {} //.COL-XL
+                            @media #{$media-xxl} {} //.COL-XXL
+                    } //.COL-SM-10
+        
+                    &-11 {
+                        // GLOBAL
+                        // MOBILE
+                            @media #{$media-xs} {} //.COL-XS
+                            @media #{$media-sm} {
+                                width: $grid-11;
+                            } //.COL-SM
+                            @media #{$media-md} {} //.COL-MD
+                            @media #{$device-mobile} {} //.MOBILE
+        
+                        // DESKTOP
+                            @media #{$device-desktop} {} //.DESKTOP
+                            @media #{$media-lg} {} //.COL-LG
+                            @media #{$media-xl} {} //.COL-XL
+                            @media #{$media-xxl} {} //.COL-XXL
+                    } //.COL-SM-11
+        
+                    &-12 {
+                        // GLOBAL
+                        // MOBILE
+                            @media #{$media-xs} {} //.COL-XS
+                            @media #{$media-sm} {
+                                width: $grid-12;
+                            } //.COL-SM
+                            @media #{$media-md} {} //.COL-MD
+                            @media #{$device-mobile} {} //.MOBILE
+        
+                        // DESKTOP
+                            @media #{$device-desktop} {} //.DESKTOP
+                            @media #{$media-lg} {} //.COL-LG
+                            @media #{$media-xl} {} //.COL-XL
+                            @media #{$media-xxl} {} //.COL-XXL
+                    } //.COL-SM-12
+                } //.COL-SM
+            
+                &.col-md {
+                    &-0 {
+                        // GLOBAL
+                        // MOBILE
+                            @media #{$media-xs} {} //.COL-XS
+                            @media #{$media-sm} {} //.COL-SM
+                            @media #{$media-md} {} //.COL-MD
+                            @media #{$device-mobile} {} //.MOBILE
+        
+                        // DESKTOP
+                            @media #{$device-desktop} {} //.DESKTOP
+                            @media #{$media-lg} {} //.COL-LG
+                            @media #{$media-xl} {} //.COL-XL
+                            @media #{$media-xxl} {} //.COL-XXL
+                    } //.COL-MD-0
+        
+                    &-1 {
+                        // GLOBAL
+                        // MOBILE
+                            @media #{$media-xs} {} //.COL-XS
+                            @media #{$media-sm} {} //.COL-SM
+                            @media #{$media-md} {
+                                width: $grid-1;
+                            } //.COL-MD
+                            @media #{$device-mobile} {} //.MOBILE
+        
+                        // DESKTOP
+                            @media #{$device-desktop} {} //.DESKTOP
+                            @media #{$media-lg} {} //.COL-LG
+                            @media #{$media-xl} {} //.COL-XL
+                            @media #{$media-xxl} {} //.COL-XXL
+                    } //.COL-MD-1
+        
+                    &-2 {
+                        // GLOBAL
+                        // MOBILE
+                            @media #{$media-xs} {} //.COL-XS
+                            @media #{$media-sm} {} //.COL-SM
+                            @media #{$media-md} {
+                                width: $grid-2;
+                            } //.COL-MD
+                            @media #{$device-mobile} {} //.MOBILE
+        
+                        // DESKTOP
+                            @media #{$device-desktop} {} //.DESKTOP
+                            @media #{$media-lg} {} //.COL-LG
+                            @media #{$media-xl} {} //.COL-XL
+                            @media #{$media-xxl} {} //.COL-XXL
+                    } //.COL-MD-2
+        
+                    &-3 {
+                        // GLOBAL
+                        // MOBILE
+                            @media #{$media-xs} {} //.COL-XS
+                            @media #{$media-sm} {} //.COL-SM
+                            @media #{$media-md} {
+                                width: $grid-3;
+                            } //.COL-MD
+                            @media #{$device-mobile} {} //.MOBILE
+        
+                        // DESKTOP
+                            @media #{$device-desktop} {} //.DESKTOP
+                            @media #{$media-lg} {} //.COL-LG
+                            @media #{$media-xl} {} //.COL-XL
+                            @media #{$media-xxl} {} //.COL-XXL
+                    } //.COL-MD-3
+        
+                    &-4 {
+                        // GLOBAL
+                        // MOBILE
+                            @media #{$media-xs} {} //.COL-XS
+                            @media #{$media-sm} {} //.COL-SM
+                            @media #{$media-md} {
+                                width: $grid-4;
+                            } //.COL-MD
+                            @media #{$device-mobile} {} //.MOBILE
+        
+                        // DESKTOP
+                            @media #{$device-desktop} {} //.DESKTOP
+                            @media #{$media-lg} {} //.COL-LG
+                            @media #{$media-xl} {} //.COL-XL
+                            @media #{$media-xxl} {} //.COL-XXL
+                    } //.COL-MD-4
+        
+                    &-5 {
+                        // GLOBAL
+                        // MOBILE
+                            @media #{$media-xs} {} //.COL-XS
+                            @media #{$media-sm} {} //.COL-SM
+                            @media #{$media-md} {
+                                width: $grid-5;
+                            } //.COL-MD
+                            @media #{$device-mobile} {} //.MOBILE
+        
+                        // DESKTOP
+                            @media #{$device-desktop} {} //.DESKTOP
+                            @media #{$media-lg} {} //.COL-LG
+                            @media #{$media-xl} {} //.COL-XL
+                            @media #{$media-xxl} {} //.COL-XXL
+                    } //.COL-MD-5
+        
+                    &-6 {
+                        // GLOBAL
+                        // MOBILE
+                            @media #{$media-xs} {} //.COL-XS
+                            @media #{$media-sm} {} //.COL-SM
+                            @media #{$media-md} {
+                                width: $grid-6;
+                            } //.COL-MD
+                            @media #{$device-mobile} {} //.MOBILE
+        
+                        // DESKTOP
+                            @media #{$device-desktop} {} //.DESKTOP
+                            @media #{$media-lg} {} //.COL-LG
+                            @media #{$media-xl} {} //.COL-XL
+                            @media #{$media-xxl} {} //.COL-XXL
+                    } //.COL-MD-6
+        
+                    &-7 {
+                        // GLOBAL
+                        // MOBILE
+                            @media #{$media-xs} {} //.COL-XS
+                            @media #{$media-sm} {} //.COL-SM
+                            @media #{$media-md} {
+                                width: $grid-7;
+                            } //.COL-MD
+                            @media #{$device-mobile} {} //.MOBILE
+        
+                        // DESKTOP
+                            @media #{$device-desktop} {} //.DESKTOP
+                            @media #{$media-lg} {} //.COL-LG
+                            @media #{$media-xl} {} //.COL-XL
+                            @media #{$media-xxl} {} //.COL-XXL
+                    } //.COL-MD-7
+        
+                    &-8 {
+                        // GLOBAL
+                        // MOBILE
+                            @media #{$media-xs} {} //.COL-XS
+                            @media #{$media-sm} {} //.COL-SM
+                            @media #{$media-md} {
+                                width: $grid-8;
+                            } //.COL-MD
+                            @media #{$device-mobile} {} //.MOBILE
+        
+                        // DESKTOP
+                            @media #{$device-desktop} {} //.DESKTOP
+                            @media #{$media-lg} {} //.COL-LG
+                            @media #{$media-xl} {} //.COL-XL
+                            @media #{$media-xxl} {} //.COL-XXL
+                    } //.COL-MD-8
+        
+                    &-9 {
+                        // GLOBAL
+                        // MOBILE
+                            @media #{$media-xs} {} //.COL-XS
+                            @media #{$media-sm} {} //.COL-SM
+                            @media #{$media-md} {
+                                width: $grid-9;
+                            } //.COL-MD
+                            @media #{$device-mobile} {} //.MOBILE
+        
+                        // DESKTOP
+                            @media #{$device-desktop} {} //.DESKTOP
+                            @media #{$media-lg} {} //.COL-LG
+                            @media #{$media-xl} {} //.COL-XL
+                            @media #{$media-xxl} {} //.COL-XXL
+                    } //.COL-MD-9
+        
+                    &-10 {
+                        // GLOBAL
+                        // MOBILE
+                            @media #{$media-xs} {} //.COL-XS
+                            @media #{$media-sm} {} //.COL-SM
+                            @media #{$media-md} {
+                                width: $grid-10;
+                            } //.COL-MD
+                            @media #{$device-mobile} {} //.MOBILE
+        
+                        // DESKTOP
+                            @media #{$device-desktop} {} //.DESKTOP
+                            @media #{$media-lg} {} //.COL-LG
+                            @media #{$media-xl} {} //.COL-XL
+                            @media #{$media-xxl} {} //.COL-XXL
+                    } //.COL-MD-10
+        
+                    &-11 {
+                        // GLOBAL
+                        // MOBILE
+                            @media #{$media-xs} {} //.COL-XS
+                            @media #{$media-sm} {} //.COL-SM
+                            @media #{$media-md} {
+                                width: $grid-11;
+                            } //.COL-MD
+                            @media #{$device-mobile} {} //.MOBILE
+        
+                        // DESKTOP
+                            @media #{$device-desktop} {} //.DESKTOP
+                            @media #{$media-lg} {} //.COL-LG
+                            @media #{$media-xl} {} //.COL-XL
+                            @media #{$media-xxl} {} //.COL-XXL
+                    } //.COL-MD-11
+        
+                    &-12 {
+                        // GLOBAL
+                        // MOBILE
+                            @media #{$media-xs} {} //.COL-XS
+                            @media #{$media-sm} {} //.COL-SM
+                            @media #{$media-md} {
+                                width: $grid-12;
+                            } //.COL-MD
+                            @media #{$device-mobile} {} //.MOBILE
+        
+                        // DESKTOP
+                            @media #{$device-desktop} {} //.DESKTOP
+                            @media #{$media-lg} {} //.COL-LG
+                            @media #{$media-xl} {} //.COL-XL
+                            @media #{$media-xxl} {} //.COL-XXL
+                    } //.COL-MD-12
+                } //.COL-MD
+        
+                &.col-lg {
+                    &-0 {
+                        // GLOBAL
+                        // MOBILE
+                            @media #{$media-xs} {} //.COL-XS
+                            @media #{$media-sm} {} //.COL-SM
+                            @media #{$media-md} {} //.COL-MD
+                            @media #{$device-mobile} {} //.MOBILE
+        
+                        // DESKTOP
+                            @media #{$device-desktop} {} //.DESKTOP
+                            @media #{$media-lg} {} //.COL-LG
+                            @media #{$media-xl} {} //.COL-XL
+                            @media #{$media-xxl} {} //.COL-XXL
+                    } //.COL-LG-0
+        
+                    &-1 {
+                        // GLOBAL
+                        // MOBILE
+                            @media #{$media-xs} {} //.COL-XS
+                            @media #{$media-sm} {} //.COL-SM
+                            @media #{$media-md} {} //.COL-MD
+                            @media #{$device-mobile} {} //.MOBILE
+        
+                        // DESKTOP
+                            @media #{$device-desktop} {} //.DESKTOP
+                            @media #{$media-lg} {
+                                width: $grid-1;
+                            } //.COL-LG
+                            @media #{$media-xl} {} //.COL-XL
+                            @media #{$media-xxl} {} //.COL-XXL
+                    } //.COL-LG-1
+        
+                    &-2 {
+                        // GLOBAL
+                        // MOBILE
+                            @media #{$media-xs} {} //.COL-XS
+                            @media #{$media-sm} {} //.COL-SM
+                            @media #{$media-md} {} //.COL-MD
+                            @media #{$device-mobile} {} //.MOBILE
+        
+                        // DESKTOP
+                            @media #{$device-desktop} {} //.DESKTOP
+                            @media #{$media-lg} {
+                                width: $grid-2;
+                            } //.COL-LG
+                            @media #{$media-xl} {} //.COL-XL
+                            @media #{$media-xxl} {} //.COL-XXL
+                    } //.COL-LG-2
+        
+                    &-3 {
+                        // GLOBAL
+                        // MOBILE
+                            @media #{$media-xs} {} //.COL-XS
+                            @media #{$media-sm} {} //.COL-SM
+                            @media #{$media-md} {} //.COL-MD
+                            @media #{$device-mobile} {} //.MOBILE
+        
+                        // DESKTOP
+                            @media #{$device-desktop} {} //.DESKTOP
+                            @media #{$media-lg} {
+                                width: $grid-3;
+                            } //.COL-LG
+                            @media #{$media-xl} {} //.COL-XL
+                            @media #{$media-xxl} {} //.COL-XXL
+                    } //.COL-LG-3
+        
+                    &-4 {
+                        // GLOBAL
+                        // MOBILE
+                            @media #{$media-xs} {} //.COL-XS
+                            @media #{$media-sm} {} //.COL-SM
+                            @media #{$media-md} {} //.COL-MD
+                            @media #{$device-mobile} {} //.MOBILE
+        
+                        // DESKTOP
+                            @media #{$device-desktop} {} //.DESKTOP
+                            @media #{$media-lg} {
+                                width: $grid-4;
+                            } //.COL-LG
+                            @media #{$media-xl} {} //.COL-XL
+                            @media #{$media-xxl} {} //.COL-XXL
+                    } //.COL-LG-4
+        
+                    &-5 {
+                        // GLOBAL
+                        // MOBILE
+                            @media #{$media-xs} {} //.COL-XS
+                            @media #{$media-sm} {} //.COL-SM
+                            @media #{$media-md} {} //.COL-MD
+                            @media #{$device-mobile} {} //.MOBILE
+        
+                        // DESKTOP
+                            @media #{$device-desktop} {} //.DESKTOP
+                            @media #{$media-lg} {
+                                width: $grid-5;
+                            } //.COL-LG
+                            @media #{$media-xl} {} //.COL-XL
+                            @media #{$media-xxl} {} //.COL-XXL
+                    } //.COL-LG-5
+        
+                    &-6 {
+                        // GLOBAL
+                        // MOBILE
+                            @media #{$media-xs} {} //.COL-XS
+                            @media #{$media-sm} {} //.COL-SM
+                            @media #{$media-md} {} //.COL-MD
+                            @media #{$device-mobile} {} //.MOBILE
+        
+                        // DESKTOP
+                            @media #{$device-desktop} {} //.DESKTOP
+                            @media #{$media-lg} {
+                                width: $grid-6;
+                            } //.COL-LG
+                            @media #{$media-xl} {} //.COL-XL
+                            @media #{$media-xxl} {} //.COL-XXL
+                    } //.COL-LG-6
+        
+                    &-7 {
+                        // GLOBAL
+                        // MOBILE
+                            @media #{$media-xs} {} //.COL-XS
+                            @media #{$media-sm} {} //.COL-SM
+                            @media #{$media-md} {} //.COL-MD
+                            @media #{$device-mobile} {} //.MOBILE
+        
+                        // DESKTOP
+                            @media #{$device-desktop} {} //.DESKTOP
+                            @media #{$media-lg} {
+                                width: $grid-7;
+                            } //.COL-LG
+                            @media #{$media-xl} {} //.COL-XL
+                            @media #{$media-xxl} {} //.COL-XXL
+                    } //.COL-LG-7
+        
+                    &-8 {
+                        // GLOBAL
+                        // MOBILE
+                            @media #{$media-xs} {} //.COL-XS
+                            @media #{$media-sm} {} //.COL-SM
+                            @media #{$media-md} {} //.COL-MD
+                            @media #{$device-mobile} {} //.MOBILE
+        
+                        // DESKTOP
+                            @media #{$device-desktop} {} //.DESKTOP
+                            @media #{$media-lg} {
+                                width: $grid-8;
+                            } //.COL-LG
+                            @media #{$media-xl} {} //.COL-XL
+                            @media #{$media-xxl} {} //.COL-XXL
+                    } //.COL-LG-8
+        
+                    &-9 {
+                        // GLOBAL
+                        // MOBILE
+                            @media #{$media-xs} {} //.COL-XS
+                            @media #{$media-sm} {} //.COL-SM
+                            @media #{$media-md} {} //.COL-MD
+                            @media #{$device-mobile} {} //.MOBILE
+        
+                        // DESKTOP
+                            @media #{$device-desktop} {} //.DESKTOP
+                            @media #{$media-lg} {
+                                width: $grid-9;
+                            } //.COL-LG
+                            @media #{$media-xl} {} //.COL-XL
+                            @media #{$media-xxl} {} //.COL-XXL
+                    } //.COL-LG-9
+        
+                    &-10 {
+                        // GLOBAL
+                        // MOBILE
+                            @media #{$media-xs} {} //.COL-XS
+                            @media #{$media-sm} {} //.COL-SM
+                            @media #{$media-md} {} //.COL-MD
+                            @media #{$device-mobile} {} //.MOBILE
+        
+                        // DESKTOP
+                            @media #{$device-desktop} {} //.DESKTOP
+                            @media #{$media-lg} {
+                                width: $grid-10;
+                            } //.COL-LG
+                            @media #{$media-xl} {} //.COL-XL
+                            @media #{$media-xxl} {} //.COL-XXL
+                    } //.COL-LG-10
+        
+                    &-11 {
+                        // GLOBAL
+                        // MOBILE
+                            @media #{$media-xs} {} //.COL-XS
+                            @media #{$media-sm} {} //.COL-SM
+                            @media #{$media-md} {} //.COL-MD
+                            @media #{$device-mobile} {} //.MOBILE
+        
+                        // DESKTOP
+                            @media #{$device-desktop} {} //.DESKTOP
+                            @media #{$media-lg} {
+                                width: $grid-11;
+                            } //.COL-LG
+                            @media #{$media-xl} {} //.COL-XL
+                            @media #{$media-xxl} {} //.COL-XXL
+                    } //.COL-LG-11
+        
+                    &-12 {
+                        // GLOBAL
+                        // MOBILE
+                            @media #{$media-xs} {} //.COL-XS
+                            @media #{$media-sm} {} //.COL-SM
+                            @media #{$media-md} {} //.COL-MD
+                            @media #{$device-mobile} {} //.MOBILE
+        
+                        // DESKTOP
+                            @media #{$device-desktop} {} //.DESKTOP
+                            @media #{$media-lg} {
+                                width: $grid-12;
+                            } //.COL-LG
+                            @media #{$media-xl} {} //.COL-XL
+                            @media #{$media-xxl} {} //.COL-XXL
+                    } //.COL-LG-12
+                } //.COL-LG
+        
+                &.col-xl {
+                    &-0 {
+                        // GLOBAL
+                        // MOBILE
+                            @media #{$media-xs} {} //.COL-XS
+                            @media #{$media-sm} {} //.COL-SM
+                            @media #{$media-md} {} //.COL-MD
+                            @media #{$device-mobile} {} //.MOBILE
+        
+                        // DESKTOP
+                            @media #{$device-desktop} {} //.DESKTOP
+                            @media #{$media-lg} {} //.COL-LG
+                            @media #{$media-xl} {} //.COL-XL
+                            @media #{$media-xxl} {} //.COL-XXL
+                    } //.COL-XL-0
+        
+                    &-1 {
+                        // GLOBAL
+                        // MOBILE
+                            @media #{$media-xs} {} //.COL-XS
+                            @media #{$media-sm} {} //.COL-SM
+                            @media #{$media-md} {} //.COL-MD
+                            @media #{$device-mobile} {} //.MOBILE
+        
+                        // DESKTOP
+                            @media #{$device-desktop} {} //.DESKTOP
+                            @media #{$media-lg} {} //.COL-LG
+                            @media #{$media-xl} {
+                                width: $grid-1;
+                            } //.COL-XL
+                            @media #{$media-xxl} {} //.COL-XXL
+                    } //.COL-XL-1
+        
+                    &-2 {
+                        // GLOBAL
+                        // MOBILE
+                            @media #{$media-xs} {} //.COL-XS
+                            @media #{$media-sm} {} //.COL-SM
+                            @media #{$media-md} {} //.COL-MD
+                            @media #{$device-mobile} {} //.MOBILE
+        
+                        // DESKTOP
+                            @media #{$device-desktop} {} //.DESKTOP
+                            @media #{$media-lg} {} //.COL-LG
+                            @media #{$media-xl} {
+                                width: $grid-2;
+                            } //.COL-XL
+                            @media #{$media-xxl} {} //.COL-XXL
+                    } //.COL-XL-2
+        
+                    &-3 {
+                        // GLOBAL
+                        // MOBILE
+                            @media #{$media-xs} {} //.COL-XS
+                            @media #{$media-sm} {} //.COL-SM
+                            @media #{$media-md} {} //.COL-MD
+                            @media #{$device-mobile} {} //.MOBILE
+        
+                        // DESKTOP
+                            @media #{$device-desktop} {} //.DESKTOP
+                            @media #{$media-lg} {} //.COL-LG
+                            @media #{$media-xl} {
+                                width: $grid-3;
+                            } //.COL-XL
+                            @media #{$media-xxl} {} //.COL-XXL
+                    } //.COL-XL-3
+        
+                    &-4 {
+                        // GLOBAL
+                        // MOBILE
+                            @media #{$media-xs} {} //.COL-XS
+                            @media #{$media-sm} {} //.COL-SM
+                            @media #{$media-md} {} //.COL-MD
+                            @media #{$device-mobile} {} //.MOBILE
+        
+                        // DESKTOP
+                            @media #{$device-desktop} {} //.DESKTOP
+                            @media #{$media-lg} {} //.COL-LG
+                            @media #{$media-xl} {
+                                width: $grid-4;
+                            } //.COL-XL
+                            @media #{$media-xxl} {} //.COL-XXL
+                    } //.COL-XL-4
+        
+                    &-5 {
+                        // GLOBAL
+                        // MOBILE
+                            @media #{$media-xs} {} //.COL-XS
+                            @media #{$media-sm} {} //.COL-SM
+                            @media #{$media-md} {} //.COL-MD
+                            @media #{$device-mobile} {} //.MOBILE
+        
+                        // DESKTOP
+                            @media #{$device-desktop} {} //.DESKTOP
+                            @media #{$media-lg} {} //.COL-LG
+                            @media #{$media-xl} {
+                                width: $grid-5;
+                            } //.COL-XL
+                            @media #{$media-xxl} {} //.COL-XXL
+                    } //.COL-XL-5
+        
+                    &-6 {
+                        // GLOBAL
+                        // MOBILE
+                            @media #{$media-xs} {} //.COL-XS
+                            @media #{$media-sm} {} //.COL-SM
+                            @media #{$media-md} {} //.COL-MD
+                            @media #{$device-mobile} {} //.MOBILE
+        
+                        // DESKTOP
+                            @media #{$device-desktop} {} //.DESKTOP
+                            @media #{$media-lg} {} //.COL-LG
+                            @media #{$media-xl} {
+                                width: $grid-6;
+                            } //.COL-XL
+                            @media #{$media-xxl} {} //.COL-XXL
+                    } //.COL-XL-6
+        
+                    &-7 {
+                        // GLOBAL
+                        // MOBILE
+                            @media #{$media-xs} {} //.COL-XS
+                            @media #{$media-sm} {} //.COL-SM
+                            @media #{$media-md} {} //.COL-MD
+                            @media #{$device-mobile} {} //.MOBILE
+        
+                        // DESKTOP
+                            @media #{$device-desktop} {} //.DESKTOP
+                            @media #{$media-lg} {} //.COL-LG
+                            @media #{$media-xl} {
+                                width: $grid-7;
+                            } //.COL-XL
+                            @media #{$media-xxl} {} //.COL-XXL
+                    } //.COL-XL-7
+        
+                    &-8 {
+                        // GLOBAL
+                        // MOBILE
+                            @media #{$media-xs} {} //.COL-XS
+                            @media #{$media-sm} {} //.COL-SM
+                            @media #{$media-md} {} //.COL-MD
+                            @media #{$device-mobile} {} //.MOBILE
+        
+                        // DESKTOP
+                            @media #{$device-desktop} {} //.DESKTOP
+                            @media #{$media-lg} {} //.COL-LG
+                            @media #{$media-xl} {
+                                width: $grid-8;
+                            } //.COL-XL
+                            @media #{$media-xxl} {} //.COL-XXL
+                    } //.COL-XL-8
+        
+                    &-9 {
+                        // GLOBAL
+                        // MOBILE
+                            @media #{$media-xs} {} //.COL-XS
+                            @media #{$media-sm} {} //.COL-SM
+                            @media #{$media-md} {} //.COL-MD
+                            @media #{$device-mobile} {} //.MOBILE
+        
+                        // DESKTOP
+                            @media #{$device-desktop} {} //.DESKTOP
+                            @media #{$media-lg} {} //.COL-LG
+                            @media #{$media-xl} {
+                                width: $grid-9;
+                            } //.COL-XL
+                            @media #{$media-xxl} {} //.COL-XXL
+                    } //.COL-XL-9
+        
+                    &-10 {
+                        // GLOBAL
+                        // MOBILE
+                            @media #{$media-xs} {} //.COL-XS
+                            @media #{$media-sm} {} //.COL-SM
+                            @media #{$media-md} {} //.COL-MD
+                            @media #{$device-mobile} {} //.MOBILE
+        
+                        // DESKTOP
+                            @media #{$device-desktop} {} //.DESKTOP
+                            @media #{$media-lg} {} //.COL-LG
+                            @media #{$media-xl} {
+                                width: $grid-10;
+                            } //.COL-XL
+                            @media #{$media-xxl} {} //.COL-XXL
+                    } //.COL-XL-10
+        
+                    &-11 {
+                        // GLOBAL
+                        // MOBILE
+                            @media #{$media-xs} {} //.COL-XS
+                            @media #{$media-sm} {} //.COL-SM
+                            @media #{$media-md} {} //.COL-MD
+                            @media #{$device-mobile} {} //.MOBILE
+        
+                        // DESKTOP
+                            @media #{$device-desktop} {} //.DESKTOP
+                            @media #{$media-lg} {} //.COL-LG
+                            @media #{$media-xl} {
+                                width: $grid-11;
+                            } //.COL-XL
+                            @media #{$media-xxl} {} //.COL-XXL
+                    } //.COL-XL-11
+        
+                    &-12 {
+                        // GLOBAL
+                        // MOBILE
+                            @media #{$media-xs} {} //.COL-XS
+                            @media #{$media-sm} {} //.COL-SM
+                            @media #{$media-md} {} //.COL-MD
+                            @media #{$device-mobile} {} //.MOBILE
+        
+                        // DESKTOP
+                            @media #{$device-desktop} {} //.DESKTOP
+                            @media #{$media-lg} {} //.COL-LG
+                            @media #{$media-xl} {
+                                width: $grid-12;
+                            } //.COL-XL
+                            @media #{$media-xxl} {} //.COL-XXL
+                    } //.COL-XL-12
+                } //.COL-XL
+        
+                &.col-xxl {
+                    &-0 {
+                        // GLOBAL
+                        // MOBILE
+                            @media #{$media-xs} {} //.COL-XS
+                            @media #{$media-sm} {} //.COL-SM
+                            @media #{$media-md} {} //.COL-MD
+                            @media #{$device-mobile} {} //.MOBILE
+        
+                        // DESKTOP
+                            @media #{$device-desktop} {} //.DESKTOP
+                            @media #{$media-lg} {} //.COL-LG
+                            @media #{$media-xl} {} //.COL-XL
+                            @media #{$media-xxl} {} //.COL-XXL
+                    } //.COL-XXL-0
+        
+                    &-1 {
+                        // GLOBAL
+                        // MOBILE
+                            @media #{$media-xs} {} //.COL-XS
+                            @media #{$media-sm} {} //.COL-SM
+                            @media #{$media-md} {} //.COL-MD
+                            @media #{$device-mobile} {} //.MOBILE
+        
+                        // DESKTOP
+                            @media #{$device-desktop} {} //.DESKTOP
+                            @media #{$media-lg} {} //.COL-LG
+                            @media #{$media-xl} {} //.COL-XL
+                            @media #{$media-xxl} {
+                                width: $grid-1;
+                            } //.COL-XXL
+                    } //.COL-XXL-1
+        
+                    &-2 {
+                        // GLOBAL
+                        // MOBILE
+                            @media #{$media-xs} {} //.COL-XS
+                            @media #{$media-sm} {} //.COL-SM
+                            @media #{$media-md} {} //.COL-MD
+                            @media #{$device-mobile} {} //.MOBILE
+        
+                        // DESKTOP
+                            @media #{$device-desktop} {} //.DESKTOP
+                            @media #{$media-lg} {} //.COL-LG
+                            @media #{$media-xl} {} //.COL-XL
+                            @media #{$media-xxl} {
+                                width: $grid-2;
+                            } //.COL-XXL
+                    } //.COL-XXL-2
+        
+                    &-3 {
+                        // GLOBAL
+                        // MOBILE
+                            @media #{$media-xs} {} //.COL-XS
+                            @media #{$media-sm} {} //.COL-SM
+                            @media #{$media-md} {} //.COL-MD
+                            @media #{$device-mobile} {} //.MOBILE
+        
+                        // DESKTOP
+                            @media #{$device-desktop} {} //.DESKTOP
+                            @media #{$media-lg} {} //.COL-LG
+                            @media #{$media-xl} {} //.COL-XL
+                            @media #{$media-xxl} {
+                                width: $grid-3;
+                            } //.COL-XXL
+                    } //.COL-XXL-3
+        
+                    &-4 {
+                        // GLOBAL
+                        // MOBILE
+                            @media #{$media-xs} {} //.COL-XS
+                            @media #{$media-sm} {} //.COL-SM
+                            @media #{$media-md} {} //.COL-MD
+                            @media #{$device-mobile} {} //.MOBILE
+        
+                        // DESKTOP
+                            @media #{$device-desktop} {} //.DESKTOP
+                            @media #{$media-lg} {} //.COL-LG
+                            @media #{$media-xl} {} //.COL-XL
+                            @media #{$media-xxl} {
+                                width: $grid-4;
+                            } //.COL-XXL
+                    } //.COL-XXL-4
+        
+                    &-5 {
+                        // GLOBAL
+                        // MOBILE
+                            @media #{$media-xs} {} //.COL-XS
+                            @media #{$media-sm} {} //.COL-SM
+                            @media #{$media-md} {} //.COL-MD
+                            @media #{$device-mobile} {} //.MOBILE
+        
+                        // DESKTOP
+                            @media #{$device-desktop} {} //.DESKTOP
+                            @media #{$media-lg} {} //.COL-LG
+                            @media #{$media-xl} {} //.COL-XL
+                            @media #{$media-xxl} {
+                                width: $grid-5;
+                            } //.COL-XXL
+                    } //.COL-XXL-5
+        
+                    &-6 {
+                        // GLOBAL
+                        // MOBILE
+                            @media #{$media-xs} {} //.COL-XS
+                            @media #{$media-sm} {} //.COL-SM
+                            @media #{$media-md} {} //.COL-MD
+                            @media #{$device-mobile} {} //.MOBILE
+        
+                        // DESKTOP
+                            @media #{$device-desktop} {} //.DESKTOP
+                            @media #{$media-lg} {} //.COL-LG
+                            @media #{$media-xl} {} //.COL-XL
+                            @media #{$media-xxl} {
+                                width: $grid-6;
+                            } //.COL-XXL
+                    } //.COL-XXL-6
+        
+                    &-7 {
+                        // GLOBAL
+                        // MOBILE
+                            @media #{$media-xs} {} //.COL-XS
+                            @media #{$media-sm} {} //.COL-SM
+                            @media #{$media-md} {} //.COL-MD
+                            @media #{$device-mobile} {} //.MOBILE
+        
+                        // DESKTOP
+                            @media #{$device-desktop} {} //.DESKTOP
+                            @media #{$media-lg} {} //.COL-LG
+                            @media #{$media-xl} {} //.COL-XL
+                            @media #{$media-xxl} {
+                                width: $grid-7;
+                            } //.COL-XXL
+                    } //.COL-XXL-7
+        
+                    &-8 {
+                        // GLOBAL
+                        // MOBILE
+                            @media #{$media-xs} {} //.COL-XS
+                            @media #{$media-sm} {} //.COL-SM
+                            @media #{$media-md} {} //.COL-MD
+                            @media #{$device-mobile} {} //.MOBILE
+        
+                        // DESKTOP
+                            @media #{$device-desktop} {} //.DESKTOP
+                            @media #{$media-lg} {} //.COL-LG
+                            @media #{$media-xl} {} //.COL-XL
+                            @media #{$media-xxl} {
+                                width: $grid-8;
+                            } //.COL-XXL
+                    } //.COL-XXL-8
+        
+                    &-9 {
+                        // GLOBAL
+                        // MOBILE
+                            @media #{$media-xs} {} //.COL-XS
+                            @media #{$media-sm} {} //.COL-SM
+                            @media #{$media-md} {} //.COL-MD
+                            @media #{$device-mobile} {} //.MOBILE
+        
+                        // DESKTOP
+                            @media #{$device-desktop} {} //.DESKTOP
+                            @media #{$media-lg} {} //.COL-LG
+                            @media #{$media-xl} {} //.COL-XL
+                            @media #{$media-xxl} {
+                                width: $grid-9;
+                            } //.COL-XXL
+                    } //.COL-XXL-9
+        
+                    &-10 {
+                        // GLOBAL
+                        // MOBILE
+                            @media #{$media-xs} {} //.COL-XS
+                            @media #{$media-sm} {} //.COL-SM
+                            @media #{$media-md} {} //.COL-MD
+                            @media #{$device-mobile} {} //.MOBILE
+        
+                        // DESKTOP
+                            @media #{$device-desktop} {} //.DESKTOP
+                            @media #{$media-lg} {} //.COL-LG
+                            @media #{$media-xl} {} //.COL-XL
+                            @media #{$media-xxl} {
+                                width: $grid-10;
+                            } //.COL-XXL
+                    } //.COL-XXL-10
+        
+                    &-11 {
+                        // GLOBAL
+                        // MOBILE
+                            @media #{$media-xs} {} //.COL-XS
+                            @media #{$media-sm} {} //.COL-SM
+                            @media #{$media-md} {} //.COL-MD
+                            @media #{$device-mobile} {} //.MOBILE
+        
+                        // DESKTOP
+                            @media #{$device-desktop} {} //.DESKTOP
+                            @media #{$media-lg} {} //.COL-LG
+                            @media #{$media-xl} {} //.COL-XL
+                            @media #{$media-xxl} {
+                                width: $grid-11;
+                            } //.COL-XXL
+                    } //.COL-XXL-11
+        
+                    &-12 {
+                        // GLOBAL
+                        // MOBILE
+                            @media #{$media-xs} {} //.COL-XS
+                            @media #{$media-sm} {} //.COL-SM
+                            @media #{$media-md} {} //.COL-MD
+                            @media #{$device-mobile} {} //.MOBILE
+        
+                        // DESKTOP
+                            @media #{$device-desktop} {} //.DESKTOP
+                            @media #{$media-lg} {} //.COL-LG
+                            @media #{$media-xl} {} //.COL-XL
+                            @media #{$media-xxl} {
+                                width: $grid-12;
+                            } //.COL-XXL
+                    } //.COL-XXL-12
+                } //.COL-XXL
+                
+            } //.COLUMNS
+        } //.ELEMENTOR-ELEMENT
+
+        &-column {
+            // GLOBAL
+            // MOBILE
+                @media #{$media-xs} {} //.COL-XS
+                @media #{$media-sm} {} //.COL-SM
+                @media #{$media-md} {} //.COL-MD
+                @media #{$device-mobile} {} //.MOBILE
+
+            // DESKTOP
+                @media #{$device-desktop} {} //.DESKTOP
+                @media #{$media-lg} {} //.COL-LG
+                @media #{$media-xl} {} //.COL-XL
+                @media #{$media-xxl} {} //.COL-XXL
+
+            &.col-xs {
+                &-0 {
+                    // GLOBAL                    
+                    // MOBILE
+                        @media #{$media-xs} {} //.COL-XS
+                        @media #{$media-sm} {} //.COL-SM
+                        @media #{$media-md} {} //.COL-MD
+                        @media #{$device-mobile} {} //.MOBILE
+
+                    // DESKTOP
+                        @media #{$device-desktop} {} //.DESKTOP
+                        @media #{$media-lg} {} //.COL-LG
+                        @media #{$media-xl} {} //.COL-XL
+                        @media #{$media-xxl} {} //.COL-XXL
+                } //.COL-XS-0
+
+                &-1 {
+                    // GLOBAL
+                    // MOBILE
+                        @media #{$media-xs} {
+                            width: $grid-1;
+                        } //.COL-XS
+                        @media #{$media-sm} {} //.COL-SM
+                        @media #{$media-md} {} //.COL-MD
+                        @media #{$device-mobile} {} //.MOBILE
+
+                    // DESKTOP
+                        @media #{$device-desktop} {} //.DESKTOP
+                        @media #{$media-lg} {} //.COL-LG
+                        @media #{$media-xl} {} //.COL-XL
+                        @media #{$media-xxl} {} //.COL-XXL
+                } //.COL-XS-1
+
+                &-2 {
+                    // GLOBAL
+                    // MOBILE
+                        @media #{$media-xs} {
+                            width: $grid-2;
+                        } //.COL-XS
+                        @media #{$media-sm} {} //.COL-SM
+                        @media #{$media-md} {} //.COL-MD
+                        @media #{$device-mobile} {} //.MOBILE
+
+                    // DESKTOP
+                        @media #{$device-desktop} {} //.DESKTOP
+                        @media #{$media-lg} {} //.COL-LG
+                        @media #{$media-xl} {} //.COL-XL
+                        @media #{$media-xxl} {} //.COL-XXL
+                } //.COL-XS-2
+
+                &-3 {
+                    // GLOBAL
+                    // MOBILE
+                        @media #{$media-xs} {
+                            width: $grid-3;
+                        } //.COL-XS
+                        @media #{$media-sm} {} //.COL-SM
+                        @media #{$media-md} {} //.COL-MD
+                        @media #{$device-mobile} {} //.MOBILE
+
+                    // DESKTOP
+                        @media #{$device-desktop} {} //.DESKTOP
+                        @media #{$media-lg} {} //.COL-LG
+                        @media #{$media-xl} {} //.COL-XL
+                        @media #{$media-xxl} {} //.COL-XXL
+                } //.COL-XS-3
+
+                &-4 {
+                    // GLOBAL
+                    // MOBILE
+                        @media #{$media-xs} {
+                            width: $grid-4;
+                        } //.COL-XS
+                        @media #{$media-sm} {} //.COL-SM
+                        @media #{$media-md} {} //.COL-MD
+                        @media #{$device-mobile} {} //.MOBILE
+
+                    // DESKTOP
+                        @media #{$device-desktop} {} //.DESKTOP
+                        @media #{$media-lg} {} //.COL-LG
+                        @media #{$media-xl} {} //.COL-XL
+                        @media #{$media-xxl} {} //.COL-XXL
+                } //.COL-XS-4
+
+                &-5 {
+                    // GLOBAL
+                    // MOBILE
+                        @media #{$media-xs} {
+                            width: $grid-5;
+                        } //.COL-XS
+                        @media #{$media-sm} {} //.COL-SM
+                        @media #{$media-md} {} //.COL-MD
+                        @media #{$device-mobile} {} //.MOBILE
+
+                    // DESKTOP
+                        @media #{$device-desktop} {} //.DESKTOP
+                        @media #{$media-lg} {} //.COL-LG
+                        @media #{$media-xl} {} //.COL-XL
+                        @media #{$media-xxl} {} //.COL-XXL
+                } //.COL-XS-5
+
+                &-6 {
+                    // GLOBAL
+                    // MOBILE
+                        @media #{$media-xs} {
+                            width: $grid-6;
+                        } //.COL-XS
+                        @media #{$media-sm} {} //.COL-SM
+                        @media #{$media-md} {} //.COL-MD
+                        @media #{$device-mobile} {} //.MOBILE
+
+                    // DESKTOP
+                        @media #{$device-desktop} {} //.DESKTOP
+                        @media #{$media-lg} {} //.COL-LG
+                        @media #{$media-xl} {} //.COL-XL
+                        @media #{$media-xxl} {} //.COL-XXL
+                } //.COL-XS-6
+
+                &-7 {
+                    // GLOBAL
+                    // MOBILE
+                        @media #{$media-xs} {
+                            width: $grid-7;
+                        } //.COL-XS
+                        @media #{$media-sm} {} //.COL-SM
+                        @media #{$media-md} {} //.COL-MD
+                        @media #{$device-mobile} {} //.MOBILE
+
+                    // DESKTOP
+                        @media #{$device-desktop} {} //.DESKTOP
+                        @media #{$media-lg} {} //.COL-LG
+                        @media #{$media-xl} {} //.COL-XL
+                        @media #{$media-xxl} {} //.COL-XXL
+                } //.COL-XS-7
+
+                &-8 {
+                    // GLOBAL
+                    // MOBILE
+                        @media #{$media-xs} {
+                            width: $grid-8;
+                        } //.COL-XS
+                        @media #{$media-sm} {} //.COL-SM
+                        @media #{$media-md} {} //.COL-MD
+                        @media #{$device-mobile} {} //.MOBILE
+
+                    // DESKTOP
+                        @media #{$device-desktop} {} //.DESKTOP
+                        @media #{$media-lg} {} //.COL-LG
+                        @media #{$media-xl} {} //.COL-XL
+                        @media #{$media-xxl} {} //.COL-XXL
+                } //.COL-XS-8
+
+                &-9 {
+                    // GLOBAL
+                    // MOBILE
+                        @media #{$media-xs} {
+                            width: $grid-9
+                        } //.COL-XS
+                        @media #{$media-sm} {} //.COL-SM
+                        @media #{$media-md} {} //.COL-MD
+                        @media #{$device-mobile} {} //.MOBILE
+
+                    // DESKTOP
+                        @media #{$device-desktop} {} //.DESKTOP
+                        @media #{$media-lg} {} //.COL-LG
+                        @media #{$media-xl} {} //.COL-XL
+                        @media #{$media-xxl} {} //.COL-XXL
+                } //.COL-XS-9
+
+                &-10 {
+                    // GLOBAL
+                    // MOBILE
+                        @media #{$media-xs} {
+                            width: $grid-10;
+                        } //.COL-XS
+                        @media #{$media-sm} {} //.COL-SM
+                        @media #{$media-md} {} //.COL-MD
+                        @media #{$device-mobile} {} //.MOBILE
+
+                    // DESKTOP
+                        @media #{$device-desktop} {} //.DESKTOP
+                        @media #{$media-lg} {} //.COL-LG
+                        @media #{$media-xl} {} //.COL-XL
+                        @media #{$media-xxl} {} //.COL-XXL
+                } //.COL-XS-10
+
+                &-11 {
+                    // GLOBAL
+                    // MOBILE
+                        @media #{$media-xs} {
+                            width: $grid-11;
+                        } //.COL-XS
+                        @media #{$media-sm} {} //.COL-SM
+                        @media #{$media-md} {} //.COL-MD
+                        @media #{$device-mobile} {} //.MOBILE
+
+                    // DESKTOP
+                        @media #{$device-desktop} {} //.DESKTOP
+                        @media #{$media-lg} {} //.COL-LG
+                        @media #{$media-xl} {} //.COL-XL
+                        @media #{$media-xxl} {} //.COL-XXL
+                } //.COL-XS-11
+
+                &-12 {
+                    // GLOBAL
+                    // MOBILE
+                        @media #{$media-xs} {
+                            width: $grid-12;
+                        } //.COL-XS
+                        @media #{$media-sm} {} //.COL-SM
+                        @media #{$media-md} {} //.COL-MD
+                        @media #{$device-mobile} {} //.MOBILE
+
+                    // DESKTOP
+                        @media #{$device-desktop} {} //.DESKTOP
+                        @media #{$media-lg} {} //.COL-LG
+                        @media #{$media-xl} {} //.COL-XL
+                        @media #{$media-xxl} {} //.COL-XXL
+                } //.COL-XS-12
+            } //.COL-XS
+        
+            &.col-sm {
+                &-0 {
+                    // GLOBAL
+                    // MOBILE
+                        @media #{$media-xs} {} //.COL-XS
+                        @media #{$media-sm} {} //.COL-SM
+                        @media #{$media-md} {} //.COL-MD
+                        @media #{$device-mobile} {} //.MOBILE
+
+                    // DESKTOP
+                        @media #{$device-desktop} {} //.DESKTOP
+                        @media #{$media-lg} {} //.COL-LG
+                        @media #{$media-xl} {} //.COL-XL
+                        @media #{$media-xxl} {} //.COL-XXL
+                } //.COL-SM-0
+
+                &-1 {
+                    // GLOBAL
+                    // MOBILE
+                        @media #{$media-xs} {} //.COL-XS
+                        @media #{$media-sm} {
+                            width: $grid-1;
+                        } //.COL-SM
+                        @media #{$media-md} {} //.COL-MD
+                        @media #{$device-mobile} {} //.MOBILE
+
+                    // DESKTOP
+                        @media #{$device-desktop} {} //.DESKTOP
+                        @media #{$media-lg} {} //.COL-LG
+                        @media #{$media-xl} {} //.COL-XL
+                        @media #{$media-xxl} {} //.COL-XXL
+                } //.COL-SM-1
+
+                &-2 {
+                    // GLOBAL
+                    // MOBILE
+                        @media #{$media-xs} {} //.COL-XS
+                        @media #{$media-sm} {
+                            width: $grid-2;
+                        } //.COL-SM
+                        @media #{$media-md} {} //.COL-MD
+                        @media #{$device-mobile} {} //.MOBILE
+
+                    // DESKTOP
+                        @media #{$device-desktop} {} //.DESKTOP
+                        @media #{$media-lg} {} //.COL-LG
+                        @media #{$media-xl} {} //.COL-XL
+                        @media #{$media-xxl} {} //.COL-XXL
+                } //.COL-XS-2
+
+                &-3 {
+                    // GLOBAL
+                    // MOBILE
+                        @media #{$media-xs} {} //.COL-XS
+                        @media #{$media-sm} {
+                            width: $grid-3;
+                        } //.COL-SM
+                        @media #{$media-md} {} //.COL-MD
+                        @media #{$device-mobile} {} //.MOBILE
+
+                    // DESKTOP
+                        @media #{$device-desktop} {} //.DESKTOP
+                        @media #{$media-lg} {} //.COL-LG
+                        @media #{$media-xl} {} //.COL-XL
+                        @media #{$media-xxl} {} //.COL-XXL
+                } //.COL-SM-3
+
+                &-4 {
+                    // GLOBAL
+                    // MOBILE
+                        @media #{$media-xs} {} //.COL-XS
+                        @media #{$media-sm} {
+                            width: $grid-4;
+                        } //.COL-SM
+                        @media #{$media-md} {} //.COL-MD
+                        @media #{$device-mobile} {} //.MOBILE
+
+                    // DESKTOP
+                        @media #{$device-desktop} {} //.DESKTOP
+                        @media #{$media-lg} {} //.COL-LG
+                        @media #{$media-xl} {} //.COL-XL
+                        @media #{$media-xxl} {} //.COL-XXL
+                } //.COL-SM-4
+
+                &-5 {
+                    // GLOBAL
+                    // MOBILE
+                        @media #{$media-xs} {} //.COL-XS
+                        @media #{$media-sm} {
+                            width: $grid-5;
+                        } //.COL-SM
+                        @media #{$media-md} {} //.COL-MD
+                        @media #{$device-mobile} {} //.MOBILE
+
+                    // DESKTOP
+                        @media #{$device-desktop} {} //.DESKTOP
+                        @media #{$media-lg} {} //.COL-LG
+                        @media #{$media-xl} {} //.COL-XL
+                        @media #{$media-xxl} {} //.COL-XXL
+                } //.COL-SM-5
+
+                &-6 {
+                    // GLOBAL
+                    // MOBILE
+                        @media #{$media-xs} {} //.COL-XS
+                        @media #{$media-sm} {
+                            width: $grid-6;
+                        } //.COL-SM
+                        @media #{$media-md} {} //.COL-MD
+                        @media #{$device-mobile} {} //.MOBILE
+
+                    // DESKTOP
+                        @media #{$device-desktop} {} //.DESKTOP
+                        @media #{$media-lg} {} //.COL-LG
+                        @media #{$media-xl} {} //.COL-XL
+                        @media #{$media-xxl} {} //.COL-XXL
+                } //.COL-SM-6
+
+                &-7 {
+                    // GLOBAL
+                    // MOBILE
+                        @media #{$media-xs} {} //.COL-XS
+                        @media #{$media-sm} {
+                            width: $grid-7;
+                        } //.COL-SM
+                        @media #{$media-md} {} //.COL-MD
+                        @media #{$device-mobile} {} //.MOBILE
+
+                    // DESKTOP
+                        @media #{$device-desktop} {} //.DESKTOP
+                        @media #{$media-lg} {} //.COL-LG
+                        @media #{$media-xl} {} //.COL-XL
+                        @media #{$media-xxl} {} //.COL-XXL
+                } //.COL-SM-7
+
+                &-8 {
+                    // GLOBAL
+                    // MOBILE
+                        @media #{$media-xs} {} //.COL-XS
+                        @media #{$media-sm} {
+                            width: $grid-8;
+                        } //.COL-SM
+                        @media #{$media-md} {} //.COL-MD
+                        @media #{$device-mobile} {} //.MOBILE
+
+                    // DESKTOP
+                        @media #{$device-desktop} {} //.DESKTOP
+                        @media #{$media-lg} {} //.COL-LG
+                        @media #{$media-xl} {} //.COL-XL
+                        @media #{$media-xxl} {} //.COL-XXL
+                } //.COL-SM-8
+
+                &-9 {
+                    // GLOBAL
+                    // MOBILE
+                        @media #{$media-xs} {} //.COL-XS
+                        @media #{$media-sm} {
+                            width: $grid-9;
+                        } //.COL-SM
+                        @media #{$media-md} {} //.COL-MD
+                        @media #{$device-mobile} {} //.MOBILE
+
+                    // DESKTOP
+                        @media #{$device-desktop} {} //.DESKTOP
+                        @media #{$media-lg} {} //.COL-LG
+                        @media #{$media-xl} {} //.COL-XL
+                        @media #{$media-xxl} {} //.COL-XXL
+                } //.COL-SM-9
+
+                &-10 {
+                    // GLOBAL
+                    // MOBILE
+                        @media #{$media-xs} {} //.COL-XS
+                        @media #{$media-sm} {
+                            width: $grid-10;
+                        } //.COL-SM
+                        @media #{$media-md} {} //.COL-MD
+                        @media #{$device-mobile} {} //.MOBILE
+
+                    // DESKTOP
+                        @media #{$device-desktop} {} //.DESKTOP
+                        @media #{$media-lg} {} //.COL-LG
+                        @media #{$media-xl} {} //.COL-XL
+                        @media #{$media-xxl} {} //.COL-XXL
+                } //.COL-SM-10
+
+                &-11 {
+                    // GLOBAL
+                    // MOBILE
+                        @media #{$media-xs} {} //.COL-XS
+                        @media #{$media-sm} {
+                            width: $grid-11;
+                        } //.COL-SM
+                        @media #{$media-md} {} //.COL-MD
+                        @media #{$device-mobile} {} //.MOBILE
+
+                    // DESKTOP
+                        @media #{$device-desktop} {} //.DESKTOP
+                        @media #{$media-lg} {} //.COL-LG
+                        @media #{$media-xl} {} //.COL-XL
+                        @media #{$media-xxl} {} //.COL-XXL
+                } //.COL-SM-11
+
+                &-12 {
+                    // GLOBAL
+                    // MOBILE
+                        @media #{$media-xs} {} //.COL-XS
+                        @media #{$media-sm} {
+                            width: $grid-12;
+                        } //.COL-SM
+                        @media #{$media-md} {} //.COL-MD
+                        @media #{$device-mobile} {} //.MOBILE
+
+                    // DESKTOP
+                        @media #{$device-desktop} {} //.DESKTOP
+                        @media #{$media-lg} {} //.COL-LG
+                        @media #{$media-xl} {} //.COL-XL
+                        @media #{$media-xxl} {} //.COL-XXL
+                } //.COL-SM-12
+            } //.COL-SM
+        
+            &.col-md {
+                &-0 {
+                    // GLOBAL
+                    // MOBILE
+                        @media #{$media-xs} {} //.COL-XS
+                        @media #{$media-sm} {} //.COL-SM
+                        @media #{$media-md} {} //.COL-MD
+                        @media #{$device-mobile} {} //.MOBILE
+
+                    // DESKTOP
+                        @media #{$device-desktop} {} //.DESKTOP
+                        @media #{$media-lg} {} //.COL-LG
+                        @media #{$media-xl} {} //.COL-XL
+                        @media #{$media-xxl} {} //.COL-XXL
+                } //.COL-MD-0
+
+                &-1 {
+                    // GLOBAL
+                    // MOBILE
+                        @media #{$media-xs} {} //.COL-XS
+                        @media #{$media-sm} {} //.COL-SM
+                        @media #{$media-md} {
+                            width: $grid-1;
+                        } //.COL-MD
+                        @media #{$device-mobile} {} //.MOBILE
+
+                    // DESKTOP
+                        @media #{$device-desktop} {} //.DESKTOP
+                        @media #{$media-lg} {} //.COL-LG
+                        @media #{$media-xl} {} //.COL-XL
+                        @media #{$media-xxl} {} //.COL-XXL
+                } //.COL-MD-1
+
+                &-2 {
+                    // GLOBAL
+                    // MOBILE
+                        @media #{$media-xs} {} //.COL-XS
+                        @media #{$media-sm} {} //.COL-SM
+                        @media #{$media-md} {
+                            width: $grid-2;
+                        } //.COL-MD
+                        @media #{$device-mobile} {} //.MOBILE
+
+                    // DESKTOP
+                        @media #{$device-desktop} {} //.DESKTOP
+                        @media #{$media-lg} {} //.COL-LG
+                        @media #{$media-xl} {} //.COL-XL
+                        @media #{$media-xxl} {} //.COL-XXL
+                } //.COL-MD-2
+
+                &-3 {
+                    // GLOBAL
+                    // MOBILE
+                        @media #{$media-xs} {} //.COL-XS
+                        @media #{$media-sm} {} //.COL-SM
+                        @media #{$media-md} {
+                            width: $grid-3;
+                        } //.COL-MD
+                        @media #{$device-mobile} {} //.MOBILE
+
+                    // DESKTOP
+                        @media #{$device-desktop} {} //.DESKTOP
+                        @media #{$media-lg} {} //.COL-LG
+                        @media #{$media-xl} {} //.COL-XL
+                        @media #{$media-xxl} {} //.COL-XXL
+                } //.COL-MD-3
+
+                &-4 {
+                    // GLOBAL
+                    // MOBILE
+                        @media #{$media-xs} {} //.COL-XS
+                        @media #{$media-sm} {} //.COL-SM
+                        @media #{$media-md} {
+                            width: $grid-4;
+                        } //.COL-MD
+                        @media #{$device-mobile} {} //.MOBILE
+
+                    // DESKTOP
+                        @media #{$device-desktop} {} //.DESKTOP
+                        @media #{$media-lg} {} //.COL-LG
+                        @media #{$media-xl} {} //.COL-XL
+                        @media #{$media-xxl} {} //.COL-XXL
+                } //.COL-MD-4
+
+                &-5 {
+                    // GLOBAL
+                    // MOBILE
+                        @media #{$media-xs} {} //.COL-XS
+                        @media #{$media-sm} {} //.COL-SM
+                        @media #{$media-md} {
+                            width: $grid-5;
+                        } //.COL-MD
+                        @media #{$device-mobile} {} //.MOBILE
+
+                    // DESKTOP
+                        @media #{$device-desktop} {} //.DESKTOP
+                        @media #{$media-lg} {} //.COL-LG
+                        @media #{$media-xl} {} //.COL-XL
+                        @media #{$media-xxl} {} //.COL-XXL
+                } //.COL-MD-5
+
+                &-6 {
+                    // GLOBAL
+                    // MOBILE
+                        @media #{$media-xs} {} //.COL-XS
+                        @media #{$media-sm} {} //.COL-SM
+                        @media #{$media-md} {
+                            width: $grid-6;
+                        } //.COL-MD
+                        @media #{$device-mobile} {} //.MOBILE
+
+                    // DESKTOP
+                        @media #{$device-desktop} {} //.DESKTOP
+                        @media #{$media-lg} {} //.COL-LG
+                        @media #{$media-xl} {} //.COL-XL
+                        @media #{$media-xxl} {} //.COL-XXL
+                } //.COL-MD-6
+
+                &-7 {
+                    // GLOBAL
+                    // MOBILE
+                        @media #{$media-xs} {} //.COL-XS
+                        @media #{$media-sm} {} //.COL-SM
+                        @media #{$media-md} {
+                            width: $grid-7;
+                        } //.COL-MD
+                        @media #{$device-mobile} {} //.MOBILE
+
+                    // DESKTOP
+                        @media #{$device-desktop} {} //.DESKTOP
+                        @media #{$media-lg} {} //.COL-LG
+                        @media #{$media-xl} {} //.COL-XL
+                        @media #{$media-xxl} {} //.COL-XXL
+                } //.COL-MD-7
+
+                &-8 {
+                    // GLOBAL
+                    // MOBILE
+                        @media #{$media-xs} {} //.COL-XS
+                        @media #{$media-sm} {} //.COL-SM
+                        @media #{$media-md} {
+                            width: $grid-8;
+                        } //.COL-MD
+                        @media #{$device-mobile} {} //.MOBILE
+
+                    // DESKTOP
+                        @media #{$device-desktop} {} //.DESKTOP
+                        @media #{$media-lg} {} //.COL-LG
+                        @media #{$media-xl} {} //.COL-XL
+                        @media #{$media-xxl} {} //.COL-XXL
+                } //.COL-MD-8
+
+                &-9 {
+                    // GLOBAL
+                    // MOBILE
+                        @media #{$media-xs} {} //.COL-XS
+                        @media #{$media-sm} {} //.COL-SM
+                        @media #{$media-md} {
+                            width: $grid-9;
+                        } //.COL-MD
+                        @media #{$device-mobile} {} //.MOBILE
+
+                    // DESKTOP
+                        @media #{$device-desktop} {} //.DESKTOP
+                        @media #{$media-lg} {} //.COL-LG
+                        @media #{$media-xl} {} //.COL-XL
+                        @media #{$media-xxl} {} //.COL-XXL
+                } //.COL-MD-9
+
+                &-10 {
+                    // GLOBAL
+                    // MOBILE
+                        @media #{$media-xs} {} //.COL-XS
+                        @media #{$media-sm} {} //.COL-SM
+                        @media #{$media-md} {
+                            width: $grid-10;
+                        } //.COL-MD
+                        @media #{$device-mobile} {} //.MOBILE
+
+                    // DESKTOP
+                        @media #{$device-desktop} {} //.DESKTOP
+                        @media #{$media-lg} {} //.COL-LG
+                        @media #{$media-xl} {} //.COL-XL
+                        @media #{$media-xxl} {} //.COL-XXL
+                } //.COL-MD-10
+
+                &-11 {
+                    // GLOBAL
+                    // MOBILE
+                        @media #{$media-xs} {} //.COL-XS
+                        @media #{$media-sm} {} //.COL-SM
+                        @media #{$media-md} {
+                            width: $grid-11;
+                        } //.COL-MD
+                        @media #{$device-mobile} {} //.MOBILE
+
+                    // DESKTOP
+                        @media #{$device-desktop} {} //.DESKTOP
+                        @media #{$media-lg} {} //.COL-LG
+                        @media #{$media-xl} {} //.COL-XL
+                        @media #{$media-xxl} {} //.COL-XXL
+                } //.COL-MD-11
+
+                &-12 {
+                    // GLOBAL
+                    // MOBILE
+                        @media #{$media-xs} {} //.COL-XS
+                        @media #{$media-sm} {} //.COL-SM
+                        @media #{$media-md} {
+                            width: $grid-12;
+                        } //.COL-MD
+                        @media #{$device-mobile} {} //.MOBILE
+
+                    // DESKTOP
+                        @media #{$device-desktop} {} //.DESKTOP
+                        @media #{$media-lg} {} //.COL-LG
+                        @media #{$media-xl} {} //.COL-XL
+                        @media #{$media-xxl} {} //.COL-XXL
+                } //.COL-MD-12
+            } //.COL-MD
+
+            &.col-lg {
+                &-0 {
+                    // GLOBAL
+                    // MOBILE
+                        @media #{$media-xs} {} //.COL-XS
+                        @media #{$media-sm} {} //.COL-SM
+                        @media #{$media-md} {} //.COL-MD
+                        @media #{$device-mobile} {} //.MOBILE
+
+                    // DESKTOP
+                        @media #{$device-desktop} {} //.DESKTOP
+                        @media #{$media-lg} {} //.COL-LG
+                        @media #{$media-xl} {} //.COL-XL
+                        @media #{$media-xxl} {} //.COL-XXL
+                } //.COL-LG-0
+
+                &-1 {
+                    // GLOBAL
+                    // MOBILE
+                        @media #{$media-xs} {} //.COL-XS
+                        @media #{$media-sm} {} //.COL-SM
+                        @media #{$media-md} {} //.COL-MD
+                        @media #{$device-mobile} {} //.MOBILE
+
+                    // DESKTOP
+                        @media #{$device-desktop} {} //.DESKTOP
+                        @media #{$media-lg} {
+                            width: $grid-1;
+                        } //.COL-LG
+                        @media #{$media-xl} {} //.COL-XL
+                        @media #{$media-xxl} {} //.COL-XXL
+                } //.COL-LG-1
+
+                &-2 {
+                    // GLOBAL
+                    // MOBILE
+                        @media #{$media-xs} {} //.COL-XS
+                        @media #{$media-sm} {} //.COL-SM
+                        @media #{$media-md} {} //.COL-MD
+                        @media #{$device-mobile} {} //.MOBILE
+
+                    // DESKTOP
+                        @media #{$device-desktop} {} //.DESKTOP
+                        @media #{$media-lg} {
+                            width: $grid-2;
+                        } //.COL-LG
+                        @media #{$media-xl} {} //.COL-XL
+                        @media #{$media-xxl} {} //.COL-XXL
+                } //.COL-LG-2
+
+                &-3 {
+                    // GLOBAL
+                    // MOBILE
+                        @media #{$media-xs} {} //.COL-XS
+                        @media #{$media-sm} {} //.COL-SM
+                        @media #{$media-md} {} //.COL-MD
+                        @media #{$device-mobile} {} //.MOBILE
+
+                    // DESKTOP
+                        @media #{$device-desktop} {} //.DESKTOP
+                        @media #{$media-lg} {
+                            width: $grid-3;
+                        } //.COL-LG
+                        @media #{$media-xl} {} //.COL-XL
+                        @media #{$media-xxl} {} //.COL-XXL
+                } //.COL-LG-3
+
+                &-4 {
+                    // GLOBAL
+                    // MOBILE
+                        @media #{$media-xs} {} //.COL-XS
+                        @media #{$media-sm} {} //.COL-SM
+                        @media #{$media-md} {} //.COL-MD
+                        @media #{$device-mobile} {} //.MOBILE
+
+                    // DESKTOP
+                        @media #{$device-desktop} {} //.DESKTOP
+                        @media #{$media-lg} {
+                            width: $grid-4;
+                        } //.COL-LG
+                        @media #{$media-xl} {} //.COL-XL
+                        @media #{$media-xxl} {} //.COL-XXL
+                } //.COL-LG-4
+
+                &-5 {
+                    // GLOBAL
+                    // MOBILE
+                        @media #{$media-xs} {} //.COL-XS
+                        @media #{$media-sm} {} //.COL-SM
+                        @media #{$media-md} {} //.COL-MD
+                        @media #{$device-mobile} {} //.MOBILE
+
+                    // DESKTOP
+                        @media #{$device-desktop} {} //.DESKTOP
+                        @media #{$media-lg} {
+                            width: $grid-5;
+                        } //.COL-LG
+                        @media #{$media-xl} {} //.COL-XL
+                        @media #{$media-xxl} {} //.COL-XXL
+                } //.COL-LG-5
+
+                &-6 {
+                    // GLOBAL
+                    // MOBILE
+                        @media #{$media-xs} {} //.COL-XS
+                        @media #{$media-sm} {} //.COL-SM
+                        @media #{$media-md} {} //.COL-MD
+                        @media #{$device-mobile} {} //.MOBILE
+
+                    // DESKTOP
+                        @media #{$device-desktop} {} //.DESKTOP
+                        @media #{$media-lg} {
+                            width: $grid-6;
+                        } //.COL-LG
+                        @media #{$media-xl} {} //.COL-XL
+                        @media #{$media-xxl} {} //.COL-XXL
+                } //.COL-LG-6
+
+                &-7 {
+                    // GLOBAL
+                    // MOBILE
+                        @media #{$media-xs} {} //.COL-XS
+                        @media #{$media-sm} {} //.COL-SM
+                        @media #{$media-md} {} //.COL-MD
+                        @media #{$device-mobile} {} //.MOBILE
+
+                    // DESKTOP
+                        @media #{$device-desktop} {} //.DESKTOP
+                        @media #{$media-lg} {
+                            width: $grid-7;
+                        } //.COL-LG
+                        @media #{$media-xl} {} //.COL-XL
+                        @media #{$media-xxl} {} //.COL-XXL
+                } //.COL-LG-7
+
+                &-8 {
+                    // GLOBAL
+                    // MOBILE
+                        @media #{$media-xs} {} //.COL-XS
+                        @media #{$media-sm} {} //.COL-SM
+                        @media #{$media-md} {} //.COL-MD
+                        @media #{$device-mobile} {} //.MOBILE
+
+                    // DESKTOP
+                        @media #{$device-desktop} {} //.DESKTOP
+                        @media #{$media-lg} {
+                            width: $grid-8;
+                        } //.COL-LG
+                        @media #{$media-xl} {} //.COL-XL
+                        @media #{$media-xxl} {} //.COL-XXL
+                } //.COL-LG-8
+
+                &-9 {
+                    // GLOBAL
+                    // MOBILE
+                        @media #{$media-xs} {} //.COL-XS
+                        @media #{$media-sm} {} //.COL-SM
+                        @media #{$media-md} {} //.COL-MD
+                        @media #{$device-mobile} {} //.MOBILE
+
+                    // DESKTOP
+                        @media #{$device-desktop} {} //.DESKTOP
+                        @media #{$media-lg} {
+                            width: $grid-9;
+                        } //.COL-LG
+                        @media #{$media-xl} {} //.COL-XL
+                        @media #{$media-xxl} {} //.COL-XXL
+                } //.COL-LG-9
+
+                &-10 {
+                    // GLOBAL
+                    // MOBILE
+                        @media #{$media-xs} {} //.COL-XS
+                        @media #{$media-sm} {} //.COL-SM
+                        @media #{$media-md} {} //.COL-MD
+                        @media #{$device-mobile} {} //.MOBILE
+
+                    // DESKTOP
+                        @media #{$device-desktop} {} //.DESKTOP
+                        @media #{$media-lg} {
+                            width: $grid-10;
+                        } //.COL-LG
+                        @media #{$media-xl} {} //.COL-XL
+                        @media #{$media-xxl} {} //.COL-XXL
+                } //.COL-LG-10
+
+                &-11 {
+                    // GLOBAL
+                    // MOBILE
+                        @media #{$media-xs} {} //.COL-XS
+                        @media #{$media-sm} {} //.COL-SM
+                        @media #{$media-md} {} //.COL-MD
+                        @media #{$device-mobile} {} //.MOBILE
+
+                    // DESKTOP
+                        @media #{$device-desktop} {} //.DESKTOP
+                        @media #{$media-lg} {
+                            width: $grid-11;
+                        } //.COL-LG
+                        @media #{$media-xl} {} //.COL-XL
+                        @media #{$media-xxl} {} //.COL-XXL
+                } //.COL-LG-11
+
+                &-12 {
+                    // GLOBAL
+                    // MOBILE
+                        @media #{$media-xs} {} //.COL-XS
+                        @media #{$media-sm} {} //.COL-SM
+                        @media #{$media-md} {} //.COL-MD
+                        @media #{$device-mobile} {} //.MOBILE
+
+                    // DESKTOP
+                        @media #{$device-desktop} {} //.DESKTOP
+                        @media #{$media-lg} {
+                            width: $grid-12;
+                        } //.COL-LG
+                        @media #{$media-xl} {} //.COL-XL
+                        @media #{$media-xxl} {} //.COL-XXL
+                } //.COL-LG-12
+            } //.COL-LG
+
+            &.col-xl {
+                &-0 {
+                    // GLOBAL
+                    // MOBILE
+                        @media #{$media-xs} {} //.COL-XS
+                        @media #{$media-sm} {} //.COL-SM
+                        @media #{$media-md} {} //.COL-MD
+                        @media #{$device-mobile} {} //.MOBILE
+
+                    // DESKTOP
+                        @media #{$device-desktop} {} //.DESKTOP
+                        @media #{$media-lg} {} //.COL-LG
+                        @media #{$media-xl} {} //.COL-XL
+                        @media #{$media-xxl} {} //.COL-XXL
+                } //.COL-XL-0
+
+                &-1 {
+                    // GLOBAL
+                    // MOBILE
+                        @media #{$media-xs} {} //.COL-XS
+                        @media #{$media-sm} {} //.COL-SM
+                        @media #{$media-md} {} //.COL-MD
+                        @media #{$device-mobile} {} //.MOBILE
+
+                    // DESKTOP
+                        @media #{$device-desktop} {} //.DESKTOP
+                        @media #{$media-lg} {} //.COL-LG
+                        @media #{$media-xl} {
+                            width: $grid-1;
+                        } //.COL-XL
+                        @media #{$media-xxl} {} //.COL-XXL
+                } //.COL-XL-1
+
+                &-2 {
+                    // GLOBAL
+                    // MOBILE
+                        @media #{$media-xs} {} //.COL-XS
+                        @media #{$media-sm} {} //.COL-SM
+                        @media #{$media-md} {} //.COL-MD
+                        @media #{$device-mobile} {} //.MOBILE
+
+                    // DESKTOP
+                        @media #{$device-desktop} {} //.DESKTOP
+                        @media #{$media-lg} {} //.COL-LG
+                        @media #{$media-xl} {
+                            width: $grid-2;
+                        } //.COL-XL
+                        @media #{$media-xxl} {} //.COL-XXL
+                } //.COL-XL-2
+
+                &-3 {
+                    // GLOBAL
+                    // MOBILE
+                        @media #{$media-xs} {} //.COL-XS
+                        @media #{$media-sm} {} //.COL-SM
+                        @media #{$media-md} {} //.COL-MD
+                        @media #{$device-mobile} {} //.MOBILE
+
+                    // DESKTOP
+                        @media #{$device-desktop} {} //.DESKTOP
+                        @media #{$media-lg} {} //.COL-LG
+                        @media #{$media-xl} {
+                            width: $grid-3;
+                        } //.COL-XL
+                        @media #{$media-xxl} {} //.COL-XXL
+                } //.COL-XL-3
+
+                &-4 {
+                    // GLOBAL
+                    // MOBILE
+                        @media #{$media-xs} {} //.COL-XS
+                        @media #{$media-sm} {} //.COL-SM
+                        @media #{$media-md} {} //.COL-MD
+                        @media #{$device-mobile} {} //.MOBILE
+
+                    // DESKTOP
+                        @media #{$device-desktop} {} //.DESKTOP
+                        @media #{$media-lg} {} //.COL-LG
+                        @media #{$media-xl} {
+                            width: $grid-4;
+                        } //.COL-XL
+                        @media #{$media-xxl} {} //.COL-XXL
+                } //.COL-XL-4
+
+                &-5 {
+                    // GLOBAL
+                    // MOBILE
+                        @media #{$media-xs} {} //.COL-XS
+                        @media #{$media-sm} {} //.COL-SM
+                        @media #{$media-md} {} //.COL-MD
+                        @media #{$device-mobile} {} //.MOBILE
+
+                    // DESKTOP
+                        @media #{$device-desktop} {} //.DESKTOP
+                        @media #{$media-lg} {} //.COL-LG
+                        @media #{$media-xl} {
+                            width: $grid-5;
+                        } //.COL-XL
+                        @media #{$media-xxl} {} //.COL-XXL
+                } //.COL-XL-5
+
+                &-6 {
+                    // GLOBAL
+                    // MOBILE
+                        @media #{$media-xs} {} //.COL-XS
+                        @media #{$media-sm} {} //.COL-SM
+                        @media #{$media-md} {} //.COL-MD
+                        @media #{$device-mobile} {} //.MOBILE
+
+                    // DESKTOP
+                        @media #{$device-desktop} {} //.DESKTOP
+                        @media #{$media-lg} {} //.COL-LG
+                        @media #{$media-xl} {
+                            width: $grid-6;
+                        } //.COL-XL
+                        @media #{$media-xxl} {} //.COL-XXL
+                } //.COL-XL-6
+
+                &-7 {
+                    // GLOBAL
+                    // MOBILE
+                        @media #{$media-xs} {} //.COL-XS
+                        @media #{$media-sm} {} //.COL-SM
+                        @media #{$media-md} {} //.COL-MD
+                        @media #{$device-mobile} {} //.MOBILE
+
+                    // DESKTOP
+                        @media #{$device-desktop} {} //.DESKTOP
+                        @media #{$media-lg} {} //.COL-LG
+                        @media #{$media-xl} {
+                            width: $grid-7;
+                        } //.COL-XL
+                        @media #{$media-xxl} {} //.COL-XXL
+                } //.COL-XL-7
+
+                &-8 {
+                    // GLOBAL
+                    // MOBILE
+                        @media #{$media-xs} {} //.COL-XS
+                        @media #{$media-sm} {} //.COL-SM
+                        @media #{$media-md} {} //.COL-MD
+                        @media #{$device-mobile} {} //.MOBILE
+
+                    // DESKTOP
+                        @media #{$device-desktop} {} //.DESKTOP
+                        @media #{$media-lg} {} //.COL-LG
+                        @media #{$media-xl} {
+                            width: $grid-8;
+                        } //.COL-XL
+                        @media #{$media-xxl} {} //.COL-XXL
+                } //.COL-XL-8
+
+                &-9 {
+                    // GLOBAL
+                    // MOBILE
+                        @media #{$media-xs} {} //.COL-XS
+                        @media #{$media-sm} {} //.COL-SM
+                        @media #{$media-md} {} //.COL-MD
+                        @media #{$device-mobile} {} //.MOBILE
+
+                    // DESKTOP
+                        @media #{$device-desktop} {} //.DESKTOP
+                        @media #{$media-lg} {} //.COL-LG
+                        @media #{$media-xl} {
+                            width: $grid-9;
+                        } //.COL-XL
+                        @media #{$media-xxl} {} //.COL-XXL
+                } //.COL-XL-9
+
+                &-10 {
+                    // GLOBAL
+                    // MOBILE
+                        @media #{$media-xs} {} //.COL-XS
+                        @media #{$media-sm} {} //.COL-SM
+                        @media #{$media-md} {} //.COL-MD
+                        @media #{$device-mobile} {} //.MOBILE
+
+                    // DESKTOP
+                        @media #{$device-desktop} {} //.DESKTOP
+                        @media #{$media-lg} {} //.COL-LG
+                        @media #{$media-xl} {
+                            width: $grid-10;
+                        } //.COL-XL
+                        @media #{$media-xxl} {} //.COL-XXL
+                } //.COL-XL-10
+
+                &-11 {
+                    // GLOBAL
+                    // MOBILE
+                        @media #{$media-xs} {} //.COL-XS
+                        @media #{$media-sm} {} //.COL-SM
+                        @media #{$media-md} {} //.COL-MD
+                        @media #{$device-mobile} {} //.MOBILE
+
+                    // DESKTOP
+                        @media #{$device-desktop} {} //.DESKTOP
+                        @media #{$media-lg} {} //.COL-LG
+                        @media #{$media-xl} {
+                            width: $grid-11;
+                        } //.COL-XL
+                        @media #{$media-xxl} {} //.COL-XXL
+                } //.COL-XL-11
+
+                &-12 {
+                    // GLOBAL
+                    // MOBILE
+                        @media #{$media-xs} {} //.COL-XS
+                        @media #{$media-sm} {} //.COL-SM
+                        @media #{$media-md} {} //.COL-MD
+                        @media #{$device-mobile} {} //.MOBILE
+
+                    // DESKTOP
+                        @media #{$device-desktop} {} //.DESKTOP
+                        @media #{$media-lg} {} //.COL-LG
+                        @media #{$media-xl} {
+                            width: $grid-12;
+                        } //.COL-XL
+                        @media #{$media-xxl} {} //.COL-XXL
+                } //.COL-XL-12
+            } //.COL-XL
+
+            &.col-xxl {
+                &-0 {
+                    // GLOBAL
+                    // MOBILE
+                        @media #{$media-xs} {} //.COL-XS
+                        @media #{$media-sm} {} //.COL-SM
+                        @media #{$media-md} {} //.COL-MD
+                        @media #{$device-mobile} {} //.MOBILE
+
+                    // DESKTOP
+                        @media #{$device-desktop} {} //.DESKTOP
+                        @media #{$media-lg} {} //.COL-LG
+                        @media #{$media-xl} {} //.COL-XL
+                        @media #{$media-xxl} {} //.COL-XXL
+                } //.COL-XXL-0
+
+                &-1 {
+                    // GLOBAL
+                    // MOBILE
+                        @media #{$media-xs} {} //.COL-XS
+                        @media #{$media-sm} {} //.COL-SM
+                        @media #{$media-md} {} //.COL-MD
+                        @media #{$device-mobile} {} //.MOBILE
+
+                    // DESKTOP
+                        @media #{$device-desktop} {} //.DESKTOP
+                        @media #{$media-lg} {} //.COL-LG
+                        @media #{$media-xl} {} //.COL-XL
+                        @media #{$media-xxl} {
+                            width: $grid-1;
+                        } //.COL-XXL
+                } //.COL-XXL-1
+
+                &-2 {
+                    // GLOBAL
+                    // MOBILE
+                        @media #{$media-xs} {} //.COL-XS
+                        @media #{$media-sm} {} //.COL-SM
+                        @media #{$media-md} {} //.COL-MD
+                        @media #{$device-mobile} {} //.MOBILE
+
+                    // DESKTOP
+                        @media #{$device-desktop} {} //.DESKTOP
+                        @media #{$media-lg} {} //.COL-LG
+                        @media #{$media-xl} {} //.COL-XL
+                        @media #{$media-xxl} {
+                            width: $grid-2;
+                        } //.COL-XXL
+                } //.COL-XXL-2
+
+                &-3 {
+                    // GLOBAL
+                    // MOBILE
+                        @media #{$media-xs} {} //.COL-XS
+                        @media #{$media-sm} {} //.COL-SM
+                        @media #{$media-md} {} //.COL-MD
+                        @media #{$device-mobile} {} //.MOBILE
+
+                    // DESKTOP
+                        @media #{$device-desktop} {} //.DESKTOP
+                        @media #{$media-lg} {} //.COL-LG
+                        @media #{$media-xl} {} //.COL-XL
+                        @media #{$media-xxl} {
+                            width: $grid-3;
+                        } //.COL-XXL
+                } //.COL-XXL-3
+
+                &-4 {
+                    // GLOBAL
+                    // MOBILE
+                        @media #{$media-xs} {} //.COL-XS
+                        @media #{$media-sm} {} //.COL-SM
+                        @media #{$media-md} {} //.COL-MD
+                        @media #{$device-mobile} {} //.MOBILE
+
+                    // DESKTOP
+                        @media #{$device-desktop} {} //.DESKTOP
+                        @media #{$media-lg} {} //.COL-LG
+                        @media #{$media-xl} {} //.COL-XL
+                        @media #{$media-xxl} {
+                            width: $grid-4;
+                        } //.COL-XXL
+                } //.COL-XXL-4
+
+                &-5 {
+                    // GLOBAL
+                    // MOBILE
+                        @media #{$media-xs} {} //.COL-XS
+                        @media #{$media-sm} {} //.COL-SM
+                        @media #{$media-md} {} //.COL-MD
+                        @media #{$device-mobile} {} //.MOBILE
+
+                    // DESKTOP
+                        @media #{$device-desktop} {} //.DESKTOP
+                        @media #{$media-lg} {} //.COL-LG
+                        @media #{$media-xl} {} //.COL-XL
+                        @media #{$media-xxl} {
+                            width: $grid-5;
+                        } //.COL-XXL
+                } //.COL-XXL-5
+
+                &-6 {
+                    // GLOBAL
+                    // MOBILE
+                        @media #{$media-xs} {} //.COL-XS
+                        @media #{$media-sm} {} //.COL-SM
+                        @media #{$media-md} {} //.COL-MD
+                        @media #{$device-mobile} {} //.MOBILE
+
+                    // DESKTOP
+                        @media #{$device-desktop} {} //.DESKTOP
+                        @media #{$media-lg} {} //.COL-LG
+                        @media #{$media-xl} {} //.COL-XL
+                        @media #{$media-xxl} {
+                            width: $grid-6;
+                        } //.COL-XXL
+                } //.COL-XXL-6
+
+                &-7 {
+                    // GLOBAL
+                    // MOBILE
+                        @media #{$media-xs} {} //.COL-XS
+                        @media #{$media-sm} {} //.COL-SM
+                        @media #{$media-md} {} //.COL-MD
+                        @media #{$device-mobile} {} //.MOBILE
+
+                    // DESKTOP
+                        @media #{$device-desktop} {} //.DESKTOP
+                        @media #{$media-lg} {} //.COL-LG
+                        @media #{$media-xl} {} //.COL-XL
+                        @media #{$media-xxl} {
+                            width: $grid-7;
+                        } //.COL-XXL
+                } //.COL-XXL-7
+
+                &-8 {
+                    // GLOBAL
+                    // MOBILE
+                        @media #{$media-xs} {} //.COL-XS
+                        @media #{$media-sm} {} //.COL-SM
+                        @media #{$media-md} {} //.COL-MD
+                        @media #{$device-mobile} {} //.MOBILE
+
+                    // DESKTOP
+                        @media #{$device-desktop} {} //.DESKTOP
+                        @media #{$media-lg} {} //.COL-LG
+                        @media #{$media-xl} {} //.COL-XL
+                        @media #{$media-xxl} {
+                            width: $grid-8;
+                        } //.COL-XXL
+                } //.COL-XXL-8
+
+                &-9 {
+                    // GLOBAL
+                    // MOBILE
+                        @media #{$media-xs} {} //.COL-XS
+                        @media #{$media-sm} {} //.COL-SM
+                        @media #{$media-md} {} //.COL-MD
+                        @media #{$device-mobile} {} //.MOBILE
+
+                    // DESKTOP
+                        @media #{$device-desktop} {} //.DESKTOP
+                        @media #{$media-lg} {} //.COL-LG
+                        @media #{$media-xl} {} //.COL-XL
+                        @media #{$media-xxl} {
+                            width: $grid-9;
+                        } //.COL-XXL
+                } //.COL-XXL-9
+
+                &-10 {
+                    // GLOBAL
+                    // MOBILE
+                        @media #{$media-xs} {} //.COL-XS
+                        @media #{$media-sm} {} //.COL-SM
+                        @media #{$media-md} {} //.COL-MD
+                        @media #{$device-mobile} {} //.MOBILE
+
+                    // DESKTOP
+                        @media #{$device-desktop} {} //.DESKTOP
+                        @media #{$media-lg} {} //.COL-LG
+                        @media #{$media-xl} {} //.COL-XL
+                        @media #{$media-xxl} {
+                            width: $grid-10;
+                        } //.COL-XXL
+                } //.COL-XXL-10
+
+                &-11 {
+                    // GLOBAL
+                    // MOBILE
+                        @media #{$media-xs} {} //.COL-XS
+                        @media #{$media-sm} {} //.COL-SM
+                        @media #{$media-md} {} //.COL-MD
+                        @media #{$device-mobile} {} //.MOBILE
+
+                    // DESKTOP
+                        @media #{$device-desktop} {} //.DESKTOP
+                        @media #{$media-lg} {} //.COL-LG
+                        @media #{$media-xl} {} //.COL-XL
+                        @media #{$media-xxl} {
+                            width: $grid-11;
+                        } //.COL-XXL
+                } //.COL-XXL-11
+
+                &-12 {
+                    // GLOBAL
+                    // MOBILE
+                        @media #{$media-xs} {} //.COL-XS
+                        @media #{$media-sm} {} //.COL-SM
+                        @media #{$media-md} {} //.COL-MD
+                        @media #{$device-mobile} {} //.MOBILE
+
+                    // DESKTOP
+                        @media #{$device-desktop} {} //.DESKTOP
+                        @media #{$media-lg} {} //.COL-LG
+                        @media #{$media-xl} {} //.COL-XL
+                        @media #{$media-xxl} {
+                            width: $grid-12;
+                        } //.COL-XXL
+                } //.COL-XXL-12
+            } //.COL-XXL
+            
+        } //.ELEMENTOR-COLUMN
+
+        &-column-gap-default {
+            // GLOBAL
+                padding: $padding-none;
+                
+            // MOBILE
+                @media #{$media-xs} {} //.COL-XS
+                @media #{$media-sm} {} //.COL-SM
+                @media #{$media-md} {} //.COL-MD
+                @media #{$device-mobile} {} //.MOBILE
+
+            // DESKTOP
+                @media #{$device-desktop} {} //.DESKTOP
+                @media #{$media-lg} {} //.COL-LG
+                @media #{$media-xl} {} //.COL-XL
+                @media #{$media-xxl} {} //.COL-XXL
+        } //.ELEMENTOR-COLUMN-GAP-DEFAULT
+
+        &-widget {
+            // GLOBAL
+                margin-bottom: $margin-none;
+
+                &:not(:last-child) {
+                    margin-bottom: $margin-none;
+                } //:NOT(:LAST-CHILD)
+
+            // MOBILE
+                @media #{$media-xs} {} //.COL-XS
+                @media #{$media-sm} {} //.COL-SM
+                @media #{$media-md} {} //.COL-MD
+                @media #{$device-mobile} {} //.MOBILE
+
+            // DESKTOP
+                @media #{$device-desktop} {} //.DESKTOP
+                @media #{$media-lg} {} //.COL-LG
+                @media #{$media-xl} {} //.COL-XL
+                @media #{$media-xxl} {} //.COL-XXL
+        } //.ELEMENTOR-WIDGET
+
+        &-widget-button {
+            // GLOBAL
+                margin: $margin-none;
+                padding: $padding-none;
+                background-color: transparent;
+                border: none;
+                border-radius: 0.00rem;
+
+                &:hover {
+                    background-color: transparent;
+                    border: none;
+                } //:HOVER
+
+            // MOBILE
+                @media #{$media-xs} {} //.COL-XS
+                @media #{$media-sm} {} //.COL-SM
+                @media #{$media-md} {} //.COL-MD
+                @media #{$device-mobile} {} //.MOBILE
+
+            // DESKTOP
+                @media #{$device-desktop} {} //.DESKTOP
+                @media #{$media-lg} {} //.COL-LG
+                @media #{$media-xl} {} //.COL-XL
+                @media #{$media-xxl} {} //.COL-XXL
+
+            &.columns {
+                // GLOBAL
+                    padding-left: $body-gutter-columns !important;
+                    padding-right: $body-gutter-columns !important;
+
+                // MOBILE
+                    @media #{$media-xs} {} //.COL-XS
+                    @media #{$media-sm} {} //.COL-SM
+                    @media #{$media-md} {} //.COL-MD
+                    @media #{$device-mobile} {} //.MOBILE
+
+                // DESKTOP
+                    @media #{$device-desktop} {} //.DESKTOP
+                    @media #{$media-lg} {} //.COL-LG
+                    @media #{$media-xl} {} //.COL-XL
+                    @media #{$media-xxl} {} //.COL-XXL
+            } //.COLUMNS
+
+            &.width-full {
+                // GLOBAL
+                // MOBILE
+                    @media #{$media-xs} {} //.COL-XS
+                    @media #{$media-sm} {} //.COL-SM
+                    @media #{$media-md} {} //.COL-MD
+                    @media #{$device-mobile} {} //.MOBILE
+
+                // DESKTOP
+                    @media #{$device-desktop} {} //.DESKTOP
+                    @media #{$media-lg} {} //.COL-LG
+                    @media #{$media-xl} {} //.COL-XL
+                    @media #{$media-xxl} {} //.COL-XXL
+
+                a.elementor-button {
+                    // GLOBAL
+                        width: 100.00%;
+
+                    // MOBILE
+                        @media #{$media-xs} {} //.COL-XS
+                        @media #{$media-sm} {} //.COL-SM
+                        @media #{$media-md} {} //.COL-MD
+                        @media #{$device-mobile} {} //.MOBILE
+
+                    // DESKTOP
+                        @media #{$device-desktop} {} //.DESKTOP
+                        @media #{$media-lg} {} //.COL-LG
+                        @media #{$media-xl} {} //.COL-XL
+                        @media #{$media-xxl} {} //.COL-XXL
+                } //.ELEMENTOR-BUTTON
+            } //.WIDTH-FULL
+
+            a.elementor-button {
+                // GLOBAL
+                    @extend .flexbox-center-all;
+                    font-size: $body-text-size;
+                    border-radius: $button-border-radius;
+
+                // MOBILE
+                    @media #{$media-xs} {} //.COL-XS
+                    @media #{$media-sm} {} //.COL-SM
+                    @media #{$media-md} {} //.COL-MD
+                    @media #{$device-mobile} {} //.MOBILE
+
+                // DESKTOP
+                    @media #{$device-desktop} {} //.DESKTOP
+                    @media #{$media-lg} {} //.COL-LG
+                    @media #{$media-xl} {} //.COL-XL
+                    @media #{$media-xxl} {} //.COL-XXL
+
+                .elementor-button-content-wrapper {
+                    // GLOBAL
+                    // MOBILE
+                        @media #{$media-xs} {} //.COL-XS
+                        @media #{$media-sm} {} //.COL-SM
+                        @media #{$media-md} {} //.COL-MD
+                        @media #{$device-mobile} {} //.MOBILE
+
+                    // DESKTOP
+                        @media #{$device-desktop} {} //.DESKTOP
+                        @media #{$media-lg} {} //.COL-LG
+                        @media #{$media-xl} {} //.COL-XL
+                        @media #{$media-xxl} {} //.COL-XXL
+                } //.ELEMENTOR-BUTTON-CONTENT-WRAPPER
+
+                .elementor-button-icon {
+                    // GLOBAL
+                        @extend .flexbox-center-all;
+                        margin: $margin-none;
+
+                    // MOBILE
+                        @media #{$media-xs} {} //.COL-XS
+                        @media #{$media-sm} {} //.COL-SM
+                        @media #{$media-md} {} //.COL-MD
+                        @media #{$device-mobile} {} //.MOBILE
+
+                    // DESKTOP
+                        @media #{$device-desktop} {} //.DESKTOP
+                        @media #{$media-lg} {} //.COL-LG
+                        @media #{$media-xl} {} //.COL-XL
+                        @media #{$media-xxl} {} //.COL-XXL
+                } //.ELEMENTOR-BUTTON-ICON
+
+                .elementor-button-text {
+                    // GLOBAL
+                        @extend .flexbox-center-all;
+
+                    // MOBILE
+                        @media #{$media-xs} {} //.COL-XS
+                        @media #{$media-sm} {} //.COL-SM
+                        @media #{$media-md} {} //.COL-MD
+                        @media #{$device-mobile} {} //.MOBILE
+
+                    // DESKTOP
+                        @media #{$device-desktop} {} //.DESKTOP
+                        @media #{$media-lg} {} //.COL-LG
+                        @media #{$media-xl} {} //.COL-XL
+                        @media #{$media-xxl} {} //.COL-XXL
+                } //.ELEMENTOR-BUTTON-TEXT
+            } //.ELEMENTOR-BUTTON
+
+            &.button-solid {
+                // GLOBAL
+                // MOBILE
+                    @media #{$media-xs} {} //.COL-XS
+                    @media #{$media-sm} {} //.COL-SM
+                    @media #{$media-md} {} //.COL-MD
+                    @media #{$device-mobile} {} //.MOBILE
+
+                // DESKTOP
+                    @media #{$device-desktop} {} //.DESKTOP
+                    @media #{$media-lg} {} //.COL-LG
+                    @media #{$media-xl} {} //.COL-XL
+                    @media #{$media-xxl} {} //.COL-XXL
+
+                a.elementor-button {
+                    // GLOBAL
+                        background-color: $button-solid-color;
+                        border: $button-solid-border;
+
+                        &:hover {
+                            background-color: $button-solid-hover-color;
+                            border: $button-solid-hover-border;
+
+                            .elementor-button-icon, .elementor-button-text {
+                                color: $button-solid-hover-text-color;
+                            } //.ELEMENTOR-BUTTON-ICON, .ELEMENTOR-BUTTON-TEXT
+                        } //:HOVER
+
+                    // MOBILE
+                        @media #{$media-xs} {} //.COL-XS
+                        @media #{$media-sm} {} //.COL-SM
+                        @media #{$media-md} {} //.COL-MD
+                        @media #{$device-mobile} {} //.MOBILE
+        
+                    // DESKTOP
+                        @media #{$device-desktop} {} //.DESKTOP
+                        @media #{$media-lg} {} //.COL-LG
+                        @media #{$media-xl} {} //.COL-XL
+                        @media #{$media-xxl} {} //.COL-XXL
+
+                    .elementor-button-icon, .elementor-button-text {
+                        // GLOBAL
+                            color: $button-solid-text-color;
+
+                        // MOBILE
+                            @media #{$media-xs} {} //.COL-XS
+                            @media #{$media-sm} {} //.COL-SM
+                            @media #{$media-md} {} //.COL-MD
+                            @media #{$device-mobile} {} //.MOBILE
+
+                        // DESKTOP
+                            @media #{$device-desktop} {} //.DESKTOP
+                            @media #{$media-lg} {} //.COL-LG
+                            @media #{$media-xl} {} //.COL-XL
+                            @media #{$media-xxl} {} //.COL-XXL
+                    } //.ELEMENTOR-BUTTON-ICON, .ELEMENTOR-BUTTON-TEXT
+
+                } //.ELEMENTOR-BUTTON
+            } //.BUTTON-SOLID
+
+            &.button-alt {
+                // GLOBAL
+                // MOBILE
+                    @media #{$media-xs} {} //.COL-XS
+                    @media #{$media-sm} {} //.COL-SM
+                    @media #{$media-md} {} //.COL-MD
+                    @media #{$device-mobile} {} //.MOBILE
+
+                // DESKTOP
+                    @media #{$device-desktop} {} //.DESKTOP
+                    @media #{$media-lg} {} //.COL-LG
+                    @media #{$media-xl} {} //.COL-XL
+                    @media #{$media-xxl} {} //.COL-XXL
+
+                a.elementor-button {
+                    // GLOBAL
+                        background-color: $button-alt-color;
+                        border: $button-alt-border;
+
+                        &:hover {
+                            background-color: $button-alt-hover-color;
+                            border: $button-alt-hover-border;
+
+                            .elementor-button-icon, .elementor-button-text {
+                                color: $button-alt-hover-text-color;
+                            } //.ELEMENTOR-BUTTON-ICON, .ELEMENTOR-BUTTON-TEXT
+                        } //:HOVER
+
+                    // MOBILE
+                        @media #{$media-xs} {} //.COL-XS
+                        @media #{$media-sm} {} //.COL-SM
+                        @media #{$media-md} {} //.COL-MD
+                        @media #{$device-mobile} {} //.MOBILE
+        
+                    // DESKTOP
+                        @media #{$device-desktop} {} //.DESKTOP
+                        @media #{$media-lg} {} //.COL-LG
+                        @media #{$media-xl} {} //.COL-XL
+                        @media #{$media-xxl} {} //.COL-XXL
+
+                    .elementor-button-icon, .elementor-button-text {
+                        // GLOBAL
+                            color: $button-alt-text-color;
+
+                        // MOBILE
+                            @media #{$media-xs} {} //.COL-XS
+                            @media #{$media-sm} {} //.COL-SM
+                            @media #{$media-md} {} //.COL-MD
+                            @media #{$device-mobile} {} //.MOBILE
+
+                        // DESKTOP
+                            @media #{$device-desktop} {} //.DESKTOP
+                            @media #{$media-lg} {} //.COL-LG
+                            @media #{$media-xl} {} //.COL-XL
+                            @media #{$media-xxl} {} //.COL-XXL
+                    } //.ELEMENTOR-BUTTON-ICON, .ELEMENTOR-BUTTON-TEXT
+
+                } //.ELEMENTOR-BUTTON
+            } //.BUTTON-ALT
+
+            &.button-ghost {
+                // GLOBAL
+                // MOBILE
+                    @media #{$media-xs} {} //.COL-XS
+                    @media #{$media-sm} {} //.COL-SM
+                    @media #{$media-md} {} //.COL-MD
+                    @media #{$device-mobile} {} //.MOBILE
+
+                // DESKTOP
+                    @media #{$device-desktop} {} //.DESKTOP
+                    @media #{$media-lg} {} //.COL-LG
+                    @media #{$media-xl} {} //.COL-XL
+                    @media #{$media-xxl} {} //.COL-XXL
+
+                a.elementor-button {
+                    // GLOBAL
+                        background-color: $button-ghost-color;
+                        border: $button-ghost-border;
+
+                        &:hover {
+                            background-color: $button-ghost-hover-color;
+                            border: $button-ghost-hover-border;
+
+                            .elementor-button-icon, .elementor-button-text {
+                                color: $button-ghost-hover-text-color;
+                            } //.ELEMENTOR-BUTTON-ICON, .ELEMENTOR-BUTTON-TEXT
+                        } //:HOVER
+
+                    // MOBILE
+                        @media #{$media-xs} {} //.COL-XS
+                        @media #{$media-sm} {} //.COL-SM
+                        @media #{$media-md} {} //.COL-MD
+                        @media #{$device-mobile} {} //.MOBILE
+        
+                    // DESKTOP
+                        @media #{$device-desktop} {} //.DESKTOP
+                        @media #{$media-lg} {} //.COL-LG
+                        @media #{$media-xl} {} //.COL-XL
+                        @media #{$media-xxl} {} //.COL-XXL
+
+                    .elementor-button-icon, .elementor-button-text {
+                        // GLOBAL
+                            color: $button-ghost-text-color;
+
+                        // MOBILE
+                            @media #{$media-xs} {} //.COL-XS
+                            @media #{$media-sm} {} //.COL-SM
+                            @media #{$media-md} {} //.COL-MD
+                            @media #{$device-mobile} {} //.MOBILE
+
+                        // DESKTOP
+                            @media #{$device-desktop} {} //.DESKTOP
+                            @media #{$media-lg} {} //.COL-LG
+                            @media #{$media-xl} {} //.COL-XL
+                            @media #{$media-xxl} {} //.COL-XXL
+                    } //.ELEMENTOR-BUTTON-ICON, .ELEMENTOR-BUTTON-TEXT
+
+                } //.ELEMENTOR-BUTTON
+            } //.BUTTON-GHOST
+
+            &.button-mobile {
+                // GLOBAL
+                // MOBILE
+                    @media #{$media-xs} {} //.COL-XS
+                    @media #{$media-sm} {} //.COL-SM
+                    @media #{$media-md} {} //.COL-MD
+                    @media #{$device-mobile} {} //.MOBILE
+
+                // DESKTOP
+                    @media #{$device-desktop} {} //.DESKTOP
+                    @media #{$media-lg} {} //.COL-LG
+                    @media #{$media-xl} {} //.COL-XL
+                    @media #{$media-xxl} {} //.COL-XXL
+
+                a.elementor-button {
+                    // GLOBAL
+                        background-color: $button-mobile-color;
+                        border: $button-mobile-border;
+
+                        &:hover {
+                            background-color: $button-mobile-hover-color;
+                            border: $button-mobile-hover-border;
+
+                            .elementor-button-icon, .elementor-button-text {
+                                color: $button-mobile-hover-text-color;
+                            } //.ELEMENTOR-BUTTON-ICON, .ELEMENTOR-BUTTON-TEXT
+                        } //:HOVER
+
+                    // MOBILE
+                        @media #{$media-xs} {} //.COL-XS
+                        @media #{$media-sm} {} //.COL-SM
+                        @media #{$media-md} {} //.COL-MD
+                        @media #{$device-mobile} {} //.MOBILE
+        
+                    // DESKTOP
+                        @media #{$device-desktop} {} //.DESKTOP
+                        @media #{$media-lg} {} //.COL-LG
+                        @media #{$media-xl} {} //.COL-XL
+                        @media #{$media-xxl} {} //.COL-XXL
+
+                    .elementor-button-icon, .elementor-button-text {
+                        // GLOBAL
+                            color: $button-mobile-text-color;
+
+                        // MOBILE
+                            @media #{$media-xs} {} //.COL-XS
+                            @media #{$media-sm} {} //.COL-SM
+                            @media #{$media-md} {} //.COL-MD
+                            @media #{$device-mobile} {} //.MOBILE
+
+                        // DESKTOP
+                            @media #{$device-desktop} {} //.DESKTOP
+                            @media #{$media-lg} {} //.COL-LG
+                            @media #{$media-xl} {} //.COL-XL
+                            @media #{$media-xxl} {} //.COL-XXL
+                    } //.ELEMENTOR-BUTTON-ICON, .ELEMENTOR-BUTTON-TEXT
+
+                } //.ELEMENTOR-BUTTON
+            } //.BUTTON-MOBILE
+
+        } //.ELEMENTOR-WIDGET-BUTTON
+
+        &-widget-heading {
+            // GLOBAL
+            // MOBILE
+                @media #{$media-xs} {} //.COL-XS
+                @media #{$media-sm} {} //.COL-SM
+                @media #{$media-md} {} //.COL-MD
+                @media #{$device-mobile} {} //.MOBILE
+
+            // DESKTOP
+                @media #{$device-desktop} {} //.DESKTOP
+                @media #{$media-lg} {} //.COL-LG
+                @media #{$media-xl} {} //.COL-XL
+                @media #{$media-xxl} {} //.COL-XXL
+
+            .elementor-heading-title {
+                // GLOBAL
+                    &:first-child {
+                        margin-top: $margin-none;
+                    } //:FIRST-CHILD
+
+                    &:last-child {
+                        margin-bottom: $margin-none;
+                    } //:LAST-CHILD
+
+                // MOBILE
+                    @media #{$media-xs} {} //.COL-XS
+                    @media #{$media-sm} {} //.COL-SM
+                    @media #{$media-md} {} //.COL-MD
+                    @media #{$device-mobile} {} //.MOBILE
+
+                // DESKTOP
+                    @media #{$device-desktop} {} //.DESKTOP
+                    @media #{$media-lg} {} //.COL-LG
+                    @media #{$media-xl} {} //.COL-XL
+                    @media #{$media-xxl} {} //.COL-XXL
+            } //.ELEMENTOR-HEADING-TITLE
+        } //.ELEMENTOR-WIDGET-HEADING
+
+        &-widget-text-editor {
+            // GLOBAL
+            // MOBILE
+                @media #{$media-xs} {} //.COL-XS
+                @media #{$media-sm} {} //.COL-SM
+                @media #{$media-md} {} //.COL-MD
+                @media #{$device-mobile} {} //.MOBILE
+
+            // DESKTOP
+                @media #{$device-desktop} {} //.DESKTOP
+                @media #{$media-lg} {} //.COL-LG
+                @media #{$media-xl} {} //.COL-XL
+                @media #{$media-xxl} {} //.COL-XXL
+
+            #{$text-all} {
+                // GLOBAL
+                    &:first-child {
+                        margin-top: $margin-none;
+                    } //:FIRST-CHILD
+
+                    &:last-child {
+                        margin-bottom: $margin-none;
+                    } //:LAST-CHILD
+
+                // MOBILE
+                    @media #{$media-xs} {} //.COL-XS
+                    @media #{$media-sm} {} //.COL-SM
+                    @media #{$media-md} {} //.COL-MD
+                    @media #{$device-mobile} {} //.MOBILE
+
+                // DESKTOP
+                    @media #{$device-desktop} {} //.DESKTOP
+                    @media #{$media-lg} {} //.COL-LG
+                    @media #{$media-xl} {} //.COL-XL
+                    @media #{$media-xxl} {} //.COL-XXL
+            } //TEXT-BODY-ALL
+        } //.ELEMENTOR-WIDGET-TEXT-EDITOR
+
+        &-widget-call-to-action {
+            // GLOBAL
+                border: $border-outline;
+
+            // MOBILE
+                @media #{$media-xs} {} //.COL-XS
+                @media #{$media-sm} {} //.COL-SM
+                @media #{$media-md} {} //.COL-MD
+                @media #{$device-mobile} {} //.MOBILE
+
+            // DESKTOP
+                @media #{$device-desktop} {} //.DESKTOP
+                @media #{$media-lg} {} //.COL-LG
+                @media #{$media-xl} {} //.COL-XL
+                @media #{$media-xxl} {} //.COL-XXL
+
+            .elementor-cta__bg-overlay {
+                // GLOBAL
+                    background-color: $color-grayscale-dark-9;
+                    opacity: 0.40;
+
+                // MOBILE
+                    @media #{$media-xs} {} //.COL-XS
+                    @media #{$media-sm} {} //.COL-SM
+                    @media #{$media-md} {} //.COL-MD
+                    @media #{$device-mobile} {} //.MOBILE
+
+                // DESKTOP
+                    @media #{$device-desktop} {} //.DESKTOP
+                    @media #{$media-lg} {} //.COL-LG
+                    @media #{$media-xl} {} //.COL-XL
+                    @media #{$media-xxl} {} //.COL-XXL
+            } //.ELEMENTOR-CTA__BG-OVERLAY
+        } //.ELEMENTOR-WIDGET-CALL-TO-ACTION
+
+        &-widget-form {
+            // GLOBAL
+            // MOBILE
+                @media #{$media-xs} {} //.COL-XS
+                @media #{$media-sm} {} //.COL-SM
+                @media #{$media-md} {} //.COL-MD
+                @media #{$device-mobile} {} //.MOBILE
+
+            // DESKTOP
+                @media #{$device-desktop} {} //.DESKTOP
+                @media #{$media-lg} {} //.COL-LG
+                @media #{$media-xl} {} //.COL-XL
+                @media #{$media-xxl} {} //.COL-XXL
+
+            & > .elementor-widget-container {
+                // GLOBAL
+                // MOBILE
+                    @media #{$media-xs} {} //.COL-XS
+                    @media #{$media-sm} {} //.COL-SM
+                    @media #{$media-md} {} //.COL-MD
+                    @media #{$device-mobile} {} //.MOBILE
+
+                // DESKTOP
+                    @media #{$device-desktop} {} //.DESKTOP
+                    @media #{$media-lg} {} //.COL-LG
+                    @media #{$media-xl} {} //.COL-XL
+                    @media #{$media-xxl} {} //.COL-XXL
+
+                & > form.elementor-form {
+                    // GLOBAL
+                    // MOBILE
+                        @media #{$media-xs} {} //.COL-XS
+                        @media #{$media-sm} {} //.COL-SM
+                        @media #{$media-md} {} //.COL-MD
+                        @media #{$device-mobile} {} //.MOBILE
+
+                    // DESKTOP
+                        @media #{$device-desktop} {} //.DESKTOP
+                        @media #{$media-lg} {} //.COL-LG
+                        @media #{$media-xl} {} //.COL-XL
+                        @media #{$media-xxl} {} //.COL-XXL
+
+                    .elementor-form-fields-wrapper {
+                        // GLOBAL
+                            margin-top: $margin-none;
+                            margin-bottom: $margin-none;
+                            padding-left: $padding-none;
+                            padding-right: $padding-none;
+
+                        // MOBILE
+                            @media #{$media-xs} {} //.COL-XS
+                            @media #{$media-sm} {} //.COL-SM
+                            @media #{$media-md} {} //.COL-MD
+                            @media #{$device-mobile} {} //.MOBILE
+
+                        // DESKTOP
+                            @media #{$device-desktop} {} //.DESKTOP
+                            @media #{$media-lg} {} //.COL-LG
+                            @media #{$media-xl} {} //.COL-XL
+                            @media #{$media-xxl} {} //.COL-XXL
+
+                        .elementor-field-group {
+                            // GLOBAL
+                                padding-left: $body-gutter-columns * 0.50;
+                                padding-right: $body-gutter-columns * 0.50;
+
+                                &:first-child {
+                                    margin-top: $margin-none;
+                                } //:FIRST-CHILD
+
+                                &:last-child {
+                                    margin-bottom: $margin-none;
+                                } //:LAST-CHILD
+
+                            // MOBILE
+                                @media #{$media-xs} {} //.COL-XS
+                                @media #{$media-sm} {} //.COL-SM
+                                @media #{$media-md} {} //.COL-MD
+                                @media #{$device-mobile} {} //.MOBILE
+
+                            // DESKTOP
+                                @media #{$device-desktop} {} //.DESKTOP
+                                @media #{$media-lg} {} //.COL-LG
+                                @media #{$media-xl} {} //.COL-XL
+                                @media #{$media-xxl} {} //.COL-XXL
+                        } //.ELEMENTOR-FIELD-GROUP
+
+                        .elementor-field-type-text, .elementor-field-type-email, .elementor-field-type-textarea {
+                            // GLOBAL
+                            // MOBILE
+                                @media #{$media-xs} {} //.COL-XS
+                                @media #{$media-sm} {} //.COL-SM
+                                @media #{$media-md} {} //.COL-MD
+                                @media #{$device-mobile} {} //.MOBILE
+
+                            // DESKTOP
+                                @media #{$device-desktop} {} //.DESKTOP
+                                @media #{$media-lg} {} //.COL-LG
+                                @media #{$media-xl} {} //.COL-XL
+                                @media #{$media-xxl} {} //.COL-XXL
+                        } //.ELEMENTOR-FIELD-TYPE-TEXT, ELEMENTOR-FIELD-TYPE-EMAIL, .ELEMENTOR-FIELD-TYPE-TEXTAREA
+
+                        input, textarea {
+                            // GLOBAL
+                            // MOBILE
+                                @media #{$media-xs} {} //.COL-XS
+                                @media #{$media-sm} {} //.COL-SM
+                                @media #{$media-md} {} //.COL-MD
+                                @media #{$device-mobile} {} //.MOBILE
+
+                            // DESKTOP
+                                @media #{$device-desktop} {} //.DESKTOP
+                                @media #{$media-lg} {} //.COL-LG
+                                @media #{$media-xl} {} //.COL-XL
+                                @media #{$media-xxl} {} //.COL-XXL
+                        } //INPUT
+
+                        button {
+                            // GLOBAL
+                                @extend .button;
+                                margin: $margin-none;
+
+                            // MOBILE
+                                @media #{$media-xs} {} //.COL-XS
+                                @media #{$media-sm} {} //.COL-SM
+                                @media #{$media-md} {} //.COL-MD
+                                @media #{$device-mobile} {} //.MOBILE
+
+                            // DESKTOP
+                                @media #{$device-desktop} {} //.DESKTOP
+                                @media #{$media-lg} {} //.COL-LG
+                                @media #{$media-xl} {} //.COL-XL
+                                @media #{$media-xxl} {} //.COL-XXL
+
+                            .elementor-button-icon {
+                                // GLOBAL
+                                    width: auto;
+                                    display: flex;
+                                    flex-grow: 0;
+                                    align-items: center;
+                                    justify-content: center;
+                                    margin: $margin-none !important;
+
+                                // MOBILE
+                                    @media #{$media-xs} {} //.COL-XS
+                                    @media #{$media-sm} {} //.COL-SM
+                                    @media #{$media-md} {} //.COL-MD
+                                    @media #{$device-mobile} {} //.MOBILE
+
+                                // DESKTOP
+                                    @media #{$device-desktop} {} //.DESKTOP
+                                    @media #{$media-lg} {} //.COL-LG
+                                    @media #{$media-xl} {} //.COL-XL
+                                    @media #{$media-xxl} {} //.COL-XXL
+
+                                i {
+                                    // GLOBAL
+                                    // MOBILE
+                                        @media #{$media-xs} {} //.COL-XS
+                                        @media #{$media-sm} {} //.COL-SM
+                                        @media #{$media-md} {} //.COL-MD
+                                        @media #{$device-mobile} {} //.MOBILE
+
+                                    // DESKTOP
+                                        @media #{$device-desktop} {} //.DESKTOP
+                                        @media #{$media-lg} {} //.COL-LG
+                                        @media #{$media-xl} {} //.COL-XL
+                                        @media #{$media-xxl} {} //.COL-XXL
+                                } //I
+                            } //.ELEMENTOR-BUTTON-ICON
+
+                            .elementor-button-text {
+                                // GLOBAL
+                                    width: auto;
+                                    display: flex;
+                                    flex-grow: 0;
+                                    align-items: center;
+                                    justify-content: center;
+
+                                // MOBILE
+                                    @media #{$media-xs} {} //.COL-XS
+                                    @media #{$media-sm} {} //.COL-SM
+                                    @media #{$media-md} {} //.COL-MD
+                                    @media #{$device-mobile} {} //.MOBILE
+
+                                // DESKTOP
+                                    @media #{$device-desktop} {} //.DESKTOP
+                                    @media #{$media-lg} {} //.COL-LG
+                                    @media #{$media-xl} {} //.COL-XL
+                                    @media #{$media-xxl} {} //.COL-XXL
+                            } //.ELEMENTOR-BUTTON-TEXT
+                        } //BUTTON
+
+                    } //.ELEMENTOR-FORM-FIELDS-WRAPPER
+                } //.ELEMENTOR-FORM
+            } //.ELEMENTOR-WIDGET-CONTAINER
+
+        } //.ELEMENTOR-WIDGET-FORM
+
+        &-widget-wrap {
+            // GLOBAL
+                padding: $padding-none !important;
+
+            // MOBILE
+                @media #{$media-xs} {} //.COL-XS
+                @media #{$media-sm} {} //.COL-SM
+                @media #{$media-md} {} //.COL-MD
+                @media #{$device-mobile} {} //.MOBILE
+
+            // DESKTOP
+                @media #{$device-desktop} {} //.DESKTOP
+                @media #{$media-lg} {} //.COL-LG
+                @media #{$media-xl} {} //.COL-XL
+                @media #{$media-xxl} {} //.COL-XXL
+        } //.ELEMENTOR-WIDGET-WRAP
+
+    } //.ELEMENTOR
